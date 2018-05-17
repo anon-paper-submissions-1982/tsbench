@@ -1,0 +1,28 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,248870,18332.96,ucr,18619.63,False,/colmajor/uint8/ucr/50words.dat,1,5,8,f,248870,100.0
+Zstd -1,202630,73.01,ucr,169.5,False,/colmajor/uint8/ucr/50words.dat,1,5,8,f,248870,81.42
+Zstd -9,195369,30.02,ucr,182.2,False,/colmajor/uint8/ucr/50words.dat,1,5,8,f,248870,78.5
+LZ4,215714,204.73,ucr,799.41,False,/colmajor/uint8/ucr/50words.dat,1,5,8,f,248870,86.68
+LZ4HC -1,212364,43.17,ucr,1228.02,False,/colmajor/uint8/ucr/50words.dat,1,5,8,f,248870,85.33
+LZ4HC -9,211295,41.72,ucr,1239.08,False,/colmajor/uint8/ucr/50words.dat,1,5,8,f,248870,84.9
+Snappy,218402,363.94,ucr,0.0,False,/colmajor/uint8/ucr/50words.dat,1,5,8,f,248870,87.76
+FSE,229260,88.35,ucr,134.48,False,/colmajor/uint8/ucr/50words.dat,1,5,8,f,248870,92.12
+Huffman,218983,117.22,ucr,189.92,False,/colmajor/uint8/ucr/50words.dat,1,5,8,f,248870,87.99
+Delta,107052,260.11,ucr,766.41,False,/colmajor/uint8/ucr/50words.dat,1,5,8,f,248870,43.02
+DoubleDelta,84979,232.42,ucr,459.2,False,/colmajor/uint8/ucr/50words.dat,1,5,8,f,248870,34.15
+DeltaRLE_HUF,108375,84.72,ucr,1004.7,False,/colmajor/uint8/ucr/50words.dat,1,5,8,f,248870,43.55
+DeltaRLE,106423,250.41,ucr,719.85,False,/colmajor/uint8/ucr/50words.dat,1,5,8,f,248870,42.76
+BitShuffle8b -1,254718,307.49,ucr,468.94,False,/colmajor/uint8/ucr/50words.dat,1,5,8,f,248870,102.35
+BitShuffle8b -9,213166,114.84,ucr,337.75,False,/colmajor/uint8/ucr/50words.dat,1,5,8,f,248870,85.65
+ByteShuffle8b -1,254718,874.14,ucr,4569.27,False,/colmajor/uint8/ucr/50words.dat,1,5,8,f,248870,102.35
+ByteShuffle8b -9,215941,182.32,ucr,698.46,False,/colmajor/uint8/ucr/50words.dat,1,5,8,f,248870,86.77
+Zstd -1,136787,49.27,ucr,837.54,False,/colmajor/uint8/ucr/Adiac.dat,1,5,8,f,141356,96.77
+Zstd -9,131003,26.2,ucr,702.89,False,/colmajor/uint8/ucr/Adiac.dat,1,5,8,f,141356,92.68
+LZ4,134065,384.14,ucr,1230.0,False,/colmajor/uint8/ucr/Adiac.dat,1,5,8,f,141356,94.84
+LZ4HC -1,132893,41.09,ucr,1606.85,False,/colmajor/uint8/ucr/Adiac.dat,1,5,8,f,141356,94.01
+LZ4HC -9,132798,43.21,ucr,1557.8,False,/colmajor/uint8/ucr/Adiac.dat,1,5,8,f,141356,93.95
+Snappy,138896,503.85,ucr,0.0,False,/colmajor/uint8/ucr/Adiac.dat,1,5,8,f,141356,98.26
+FSE,141356,86.41,ucr,5956.85,False,/colmajor/uint8/ucr/Adiac.dat,1,5,8,f,141356,100.0
+Huffman,140152,82.34,ucr,0.0,False,/colmajor/uint8/ucr/Adiac.dat,1,5,8,f,141356,99.15
+Delta,79033,501.28,ucr,1620.72,False,/colmajor/uint8/ucr/Adiac.dat,1,5,8,f,141356,55.91
+DoubleDelta,53032,493.76,ucr,1017.62,False,/colmajor/uint8/ucr/Adiac.dat,1,5,8,f,141356,37.52

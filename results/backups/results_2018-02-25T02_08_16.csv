@@ -1,0 +1,6 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Filename,Memlimit,MinIters,Nbits,Order,Original size,Preprocs,Ratio
+Memcpy,12614430,9824.52,ampd_gas,10260.38,/rowmajor/uint16/ampd_gas/ampd_gas.dat,-1,20,16,c,12614430,None,100.0
+SprintzDelta_16b -3,1088874,994.22,ampd_gas,3335.2,/rowmajor/uint16/ampd_gas/ampd_gas.dat,-1,20,16,c,12614430,None,8.63
+SprintzXff_16b -3,1128962,691.85,ampd_gas,0.0,/rowmajor/uint16/ampd_gas/ampd_gas.dat,-1,20,16,c,12614430,None,8.95
+SprintzDelta_Huf_16b -3,343650,813.49,ampd_gas,2262.85,/rowmajor/uint16/ampd_gas/ampd_gas.dat,-1,20,16,c,12614430,None,2.72
+SprintzXff_Huf_16b -3,471938,585.27,ampd_gas,0.0,/rowmajor/uint16/ampd_gas/ampd_gas.dat,-1,20,16,c,12614430,None,3.74

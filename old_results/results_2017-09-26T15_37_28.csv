@@ -1,0 +1,3 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,96710400,8751.99,ampd_power,8645.02,False,/rowmajor/uint8-as-uint32/ampd_power/ampd_power.dat,-1,5,8,c,96710400,100.0
+FastPFOR,20480120,1560.2,ampd_power,8120.55,False,/rowmajor/uint8-as-uint32/ampd_power/ampd_power.dat,-1,5,8,c,96710400,21.18

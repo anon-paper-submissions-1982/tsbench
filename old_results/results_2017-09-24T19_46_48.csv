@@ -1,0 +1,10 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,301923720,7089.69,uci_gas,7024.36,False,/colmajor/uint16/uci_gas/uci_gas.dat,-1,5,16,f,301923720,100.0
+Zstd -1,224390241,552.13,uci_gas,639.15,False,/colmajor/uint16/uci_gas/uci_gas.dat,-1,5,16,f,301923720,74.32
+Zstd -9,196232078,14.87,uci_gas,471.58,False,/colmajor/uint16/uci_gas/uci_gas.dat,-1,5,16,f,301923720,64.99
+LZ4,262036569,1788.92,uci_gas,4520.54,False,/colmajor/uint16/uci_gas/uci_gas.dat,-1,5,16,f,301923720,86.79
+LZ4HC -1,241833840,119.03,uci_gas,2623.97,False,/colmajor/uint16/uci_gas/uci_gas.dat,-1,5,16,f,301923720,80.1
+LZ4HC -9,237072894,41.83,uci_gas,2640.58,False,/colmajor/uint16/uci_gas/uci_gas.dat,-1,5,16,f,301923720,78.52
+Snappy,259610563,1371.09,uci_gas,3130.05,False,/colmajor/uint16/uci_gas/uci_gas.dat,-1,5,16,f,301923720,85.99
+FSE,288389142,459.01,uci_gas,591.01,False,/colmajor/uint16/uci_gas/uci_gas.dat,-1,5,16,f,301923720,95.52
+Huffman,231102688,754.13,uci_gas,757.47,False,/colmajor/uint16/uci_gas/uci_gas.dat,-1,5,16,f,301923720,76.54

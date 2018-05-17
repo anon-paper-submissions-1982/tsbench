@@ -1,0 +1,17 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,56806640,11495.01,msrc,11575.75,False,/colmajor/uint8/msrc/msrc.dat,-1,5,8,f,56806640,100.0
+Zstd -1,15318913,384.38,msrc,820.56,False,/colmajor/uint8/msrc/msrc.dat,-1,5,8,f,56806640,26.97
+Zstd -9,12332908,50.84,msrc,746.09,False,/colmajor/uint8/msrc/msrc.dat,-1,5,8,f,56806640,21.71
+LZ4,20155041,626.07,msrc,2207.29,False,/colmajor/uint8/msrc/msrc.dat,-1,5,8,f,56806640,35.48
+LZ4HC -1,17920269,165.7,msrc,2138.97,False,/colmajor/uint8/msrc/msrc.dat,-1,5,8,f,56806640,31.55
+LZ4HC -9,14331523,20.27,msrc,2807.05,False,/colmajor/uint8/msrc/msrc.dat,-1,5,8,f,56806640,25.23
+Snappy,19366230,508.11,msrc,1204.62,False,/colmajor/uint8/msrc/msrc.dat,-1,5,8,f,56806640,34.09
+FSE,45811280,456.3,msrc,590.72,False,/colmajor/uint8/msrc/msrc.dat,-1,5,8,f,56806640,80.64
+Huffman,32860004,852.7,msrc,1025.26,False,/colmajor/uint8/msrc/msrc.dat,-1,5,8,f,56806640,57.85
+Delta,11684061,616.33,msrc,1733.19,False,/colmajor/uint8/msrc/msrc.dat,-1,5,8,f,56806640,20.57
+DoubleDelta,13012765,583.51,msrc,1053.42,False,/colmajor/uint8/msrc/msrc.dat,-1,5,8,f,56806640,22.91
+DeltaRLE,11283462,593.04,msrc,2006.38,False,/colmajor/uint8/msrc/msrc.dat,-1,5,8,f,56806640,19.86
+BitShuffle8b -1,43015506,655.46,msrc,1065.59,False,/colmajor/uint8/msrc/msrc.dat,-1,5,8,f,56806640,75.72
+BitShuffle8b -9,21966569,284.15,msrc,673.79,False,/colmajor/uint8/msrc/msrc.dat,-1,5,8,f,56806640,38.67
+ByteShuffle8b -1,43043630,1377.65,msrc,9131.31,False,/colmajor/uint8/msrc/msrc.dat,-1,5,8,f,56806640,75.77
+ByteShuffle8b -9,23506083,381.32,msrc,1055.16,False,/colmajor/uint8/msrc/msrc.dat,-1,5,8,f,56806640,41.38

@@ -1,0 +1,18 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,122640,25333.61,ampd_weather,24557.47,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,16,5,8,f,122640,100.0
+Zstd -1,88172,163.6,ampd_weather,327.97,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,16,5,8,f,122640,71.89
+Zstd -9,81813,22.84,ampd_weather,271.09,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,16,5,8,f,122640,66.71
+LZ4,106044,356.62,ampd_weather,1495.97,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,16,5,8,f,122640,86.47
+LZ4HC -1,102791,73.77,ampd_weather,1317.08,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,16,5,8,f,122640,83.82
+LZ4HC -9,100170,38.32,ampd_weather,1413.86,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,16,5,8,f,122640,81.68
+Snappy,106979,404.32,ampd_weather,1288.37,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,16,5,8,f,122640,87.23
+FSE,94082,241.22,ampd_weather,201.73,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,16,5,8,f,122640,76.71
+Huffman,93579,254.52,ampd_weather,253.28,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,16,5,8,f,122640,76.3
+Delta,86305,241.49,ampd_weather,697.1,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,16,5,8,f,122640,70.37
+DoubleDelta,91725,227.93,ampd_weather,434.9,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,16,5,8,f,122640,74.79
+DeltaRLE_HUF,73354,131.62,ampd_weather,235.06,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,16,5,8,f,122640,59.81
+DeltaRLE,86518,232.9,ampd_weather,660.21,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,16,5,8,f,122640,70.55
+BitShuffle8b -1,122832,335.67,ampd_weather,485.44,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,16,5,8,f,122640,100.16
+BitShuffle8b -9,101442,89.47,ampd_weather,264.74,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,16,5,8,f,122640,82.72
+ByteShuffle8b -1,122832,636.4,ampd_weather,3599.01,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,16,5,8,f,122640,100.16
+ByteShuffle8b -9,99998,91.74,ampd_weather,282.62,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,16,5,8,f,122640,81.54

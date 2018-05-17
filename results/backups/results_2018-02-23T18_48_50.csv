@@ -1,0 +1,22 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Filename,Memlimit,MinIters,Nbits,Order,Original size,Preprocs,Ratio
+Memcpy,100000000,8533.45,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,7141.65,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -40,100000006,4694.95,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,5439.98,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -41,100000006,5153.46,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,5367.21,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -42,100000006,5023.19,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,5386.44,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -43,100000006,3972.57,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,5388.81,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -44,100000006,5201.7,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,5616.9,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -45,100000006,5303.81,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,5653.07,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -46,100000006,5047.18,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,5731.23,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -47,100000006,4774.64,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,5789.99,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -48,100000006,4849.11,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,5789.01,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -49,100000006,5312.9,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,5696.34,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -50,100000006,5234.54,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,5837.7,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -51,100000006,5010.41,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,5923.48,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -52,100000006,5110.57,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,5923.21,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -53,100000006,5141.25,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,5953.77,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -54,100000006,5172.06,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,6003.15,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -55,100000006,5371.08,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,6031.8,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -56,100000006,5109.63,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,6031.14,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -57,100000006,5078.53,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,6109.76,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -58,100000006,4637.57,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,6106.69,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0
+FIRE -59,100000006,5345.68,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u8_ratio=1.dat,6151.12,/synthetic/synth_100M_u8_ratio=1.dat,-1,10,8,c,100000000,None,100.0

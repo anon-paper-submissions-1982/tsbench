@@ -1,0 +1,5 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,56806640,11473.5,msrc,11277.88,False,/colmajor/uint8/msrc/msrc.dat,-1,2,8,f,56806640,100.0
+LZ4,20155041,570.81,msrc,2035.1,False,/colmajor/uint8/msrc/msrc.dat,-1,2,8,f,56806640,35.48
+Zstd -1,15318913,349.63,msrc,755.59,False,/colmajor/uint8/msrc/msrc.dat,-1,2,8,f,56806640,26.97
+Zstd -9,12332908,44.02,msrc,754.36,False,/colmajor/uint8/msrc/msrc.dat,-1,2,8,f,56806640,21.71

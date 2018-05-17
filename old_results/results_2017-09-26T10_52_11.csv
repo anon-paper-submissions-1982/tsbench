@@ -1,0 +1,3 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,25228860,7795.64,ampd_gas,2580.52,True,/colmajor/uint8-as-uint32_deltas_zigzag/ampd_gas/ampd_gas.dat,4,5,8,f,25228860,100.0
+FastPFOR,636684,1346.91,ampd_gas,2193.82,True,/colmajor/uint8-as-uint32_deltas_zigzag/ampd_gas/ampd_gas.dat,4,5,8,f,25228860,2.52

@@ -1,0 +1,3 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,25228880,5245.62,ampd_water,2529.83,True,/colmajor/uint16-as-uint32_deltas_zigzag/ampd_water/ampd_water.dat,-1,5,16,f,25228880,100.0
+FastPFOR,1535048,1347.15,ampd_water,2560.28,True,/colmajor/uint16-as-uint32_deltas_zigzag/ampd_water/ampd_water.dat,-1,5,16,f,25228880,6.08

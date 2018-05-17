@@ -1,0 +1,3 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,603847440,4823.96,uci_gas,5143.52,False,/colmajor/uint16-as-uint32/uci_gas/uci_gas.dat,16,5,16,f,603847440,100.0
+FastPFOR,247069980,1891.55,uci_gas,5875.39,False,/colmajor/uint16-as-uint32/uci_gas/uci_gas.dat,16,5,16,f,603847440,40.92

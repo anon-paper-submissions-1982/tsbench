@@ -1,0 +1,10 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,12614440,12188.38,ampd_water,12448.96,False,/colmajor/uint16/ampd_water/ampd_water.dat,-1,5,16,f,12614440,100.0
+Zstd -1,553266,1240.01,ampd_water,2037.67,False,/colmajor/uint16/ampd_water/ampd_water.dat,-1,5,16,f,12614440,4.39
+Zstd -9,518256,204.98,ampd_water,2165.71,False,/colmajor/uint16/ampd_water/ampd_water.dat,-1,5,16,f,12614440,4.11
+LZ4,902871,2051.25,ampd_water,2888.08,False,/colmajor/uint16/ampd_water/ampd_water.dat,-1,5,16,f,12614440,7.16
+LZ4HC -1,896846,400.89,ampd_water,3339.03,False,/colmajor/uint16/ampd_water/ampd_water.dat,-1,5,16,f,12614440,7.11
+LZ4HC -9,719650,29.13,ampd_water,3966.87,False,/colmajor/uint16/ampd_water/ampd_water.dat,-1,5,16,f,12614440,5.7
+Snappy,1286644,1819.04,ampd_water,2070.81,False,/colmajor/uint16/ampd_water/ampd_water.dat,-1,5,16,f,12614440,10.2
+FSE,7613445,450.47,ampd_water,536.43,False,/colmajor/uint16/ampd_water/ampd_water.dat,-1,5,16,f,12614440,60.35
+Huffman,5190262,737.37,ampd_water,902.74,False,/colmajor/uint16/ampd_water/ampd_water.dat,-1,5,16,f,12614440,41.15

@@ -1,0 +1,11 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Filename,Memlimit,MinIters,Nbits,Order,Original size,Preprocs,Ratio
+Memcpy,6307220,7911.49,ampd_water,9442.77,/colmajor/uint8/ampd_water/ampd_water.dat,-1,0,8,f,6307220,None,100.0
+Zstd -1,266988,1129.13,ampd_water,1600.7,/colmajor/uint8/ampd_water/ampd_water.dat,-1,0,8,f,6307220,None,4.23
+Zstd -9,245104,177.02,ampd_water,2090.14,/colmajor/uint8/ampd_water/ampd_water.dat,-1,0,8,f,6307220,None,3.89
+Snappy,632884,1563.33,ampd_water,1839.49,/colmajor/uint8/ampd_water/ampd_water.dat,-1,0,8,f,6307220,None,10.03
+LZO -1,455644,1858.32,ampd_water,681.71,/colmajor/uint8/ampd_water/ampd_water.dat,-1,0,8,f,6307220,None,7.22
+LZO -9,455644,1850.87,ampd_water,711.36,/colmajor/uint8/ampd_water/ampd_water.dat,-1,0,8,f,6307220,None,7.22
+LZ4,439552,1561.34,ampd_water,2747.2,/colmajor/uint8/ampd_water/ampd_water.dat,-1,0,8,f,6307220,None,6.97
+Zlib -1,339491,289.82,ampd_water,762.68,/colmajor/uint8/ampd_water/ampd_water.dat,-1,0,8,f,6307220,None,5.38
+Zlib -9,245936,11.3,ampd_water,530.48,/colmajor/uint8/ampd_water/ampd_water.dat,-1,0,8,f,6307220,None,3.9
+Huffman,1691375,843.12,ampd_water,1154.81,/colmajor/uint8/ampd_water/ampd_water.dat,-1,0,8,f,6307220,None,26.82

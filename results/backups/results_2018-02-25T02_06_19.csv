@@ -1,0 +1,5 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Filename,Memlimit,MinIters,Nbits,Order,Original size,Preprocs,Ratio
+Memcpy,387831328,6981.99,pamap,6843.45,/colmajor/uint16-as-uint32/pamap/pamap.dat,-1,20,16,f,387831328,None,100.0
+SIMDBP128,181350632,7641.71,pamap,6804.96,/colmajor/uint16-as-uint32/pamap/pamap.dat,-1,20,16,f,387831328,None,46.76
+FastPFOR,181279660,2094.72,pamap,7168.54,/colmajor/uint16-as-uint32/pamap/pamap.dat,-1,20,16,f,387831328,None,46.74
+Simple8B,226207452,2108.25,pamap,5171.37,/colmajor/uint16-as-uint32/pamap/pamap.dat,-1,20,16,f,387831328,None,58.33

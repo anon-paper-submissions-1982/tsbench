@@ -1,0 +1,5 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Filename,Memlimit,MinIters,Nbits,Order,Original size,Preprocs,Ratio
+Memcpy,25228880,8662.32,ampd_water,8675.81,/colmajor/uint16-as-uint32/ampd_water/ampd_water.dat,-1,20,16,f,25228880,None,100.0
+SIMDBP128,7942168,10418.49,ampd_water,11056.04,/colmajor/uint16-as-uint32/ampd_water/ampd_water.dat,-1,20,16,f,25228880,None,31.48
+FastPFOR,5718332,1689.98,ampd_water,11427.77,/colmajor/uint16-as-uint32/ampd_water/ampd_water.dat,-1,20,16,f,25228880,None,22.67
+Simple8B,7195628,2545.05,ampd_water,6419.24,/colmajor/uint16-as-uint32/ampd_water/ampd_water.dat,-1,20,16,f,25228880,None,28.52

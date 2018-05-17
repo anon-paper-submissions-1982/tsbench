@@ -1,0 +1,10 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,48355200,4838.81,ampd_power,4076.78,True,/colmajor/uint16/ampd_power/ampd_power.dat,-1,5,16,f,48355200,100.0
+Zstd -1,9587475,433.06,ampd_power,838.15,True,/colmajor/uint16/ampd_power/ampd_power.dat,-1,5,16,f,48355200,19.83
+Zstd -9,8678821,54.69,ampd_power,832.07,True,/colmajor/uint16/ampd_power/ampd_power.dat,-1,5,16,f,48355200,17.95
+LZ4,15177536,770.92,ampd_power,1893.96,True,/colmajor/uint16/ampd_power/ampd_power.dat,-1,5,16,f,48355200,31.39
+LZ4HC -1,14718871,173.44,ampd_power,1700.01,True,/colmajor/uint16/ampd_power/ampd_power.dat,-1,5,16,f,48355200,30.44
+LZ4HC -9,10114206,9.15,ampd_power,2150.0,True,/colmajor/uint16/ampd_power/ampd_power.dat,-1,5,16,f,48355200,20.92
+Snappy,15194512,521.15,ampd_power,1132.39,True,/colmajor/uint16/ampd_power/ampd_power.dat,-1,5,16,f,48355200,31.42
+FSE,17080652,429.5,ampd_power,505.27,True,/colmajor/uint16/ampd_power/ampd_power.dat,-1,5,16,f,48355200,35.32
+Huffman,14432137,720.15,ampd_power,920.43,True,/colmajor/uint16/ampd_power/ampd_power.dat,-1,5,16,f,48355200,29.85

@@ -1,0 +1,6 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Filename,Memlimit,MinIters,Nbits,Order,Original size,Preprocs,Ratio
+Memcpy,24177600,8144.12,ampd_power,8784.81,/rowmajor/uint8/ampd_power/ampd_power.dat,-1,20,8,c,24177600,None,100.0
+SprintzDelta -23,6479593,538.0,ampd_power,3085.55,/rowmajor/uint8/ampd_power/ampd_power.dat,-1,20,8,c,24177600,None,26.8
+SprintzXff -23,6522704,373.06,ampd_power,2501.4,/rowmajor/uint8/ampd_power/ampd_power.dat,-1,20,8,c,24177600,None,26.98
+SprintzDelta_Huf -23,4336145,424.08,ampd_power,1318.8,/rowmajor/uint8/ampd_power/ampd_power.dat,-1,20,8,c,24177600,None,17.93
+SprintzXff_Huf -23,4518030,313.82,ampd_power,1108.42,/rowmajor/uint8/ampd_power/ampd_power.dat,-1,20,8,c,24177600,None,18.69

@@ -1,0 +1,5 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Filename,Memlimit,MinIters,Nbits,Order,Original size,Preprocs,Ratio
+Memcpy,96710400,8150.43,ampd_power,7135.44,/colmajor/uint8-as-uint32/ampd_power/ampd_power.dat,-1,0,8,f,96710400,None,100.0
+SIMDBP128,10737088,10414.47,ampd_power,9463.92,/colmajor/uint8-as-uint32/ampd_power/ampd_power.dat,-1,0,8,f,96710400,None,11.1
+FastPFOR,9956172,1776.86,ampd_power,8769.79,/colmajor/uint8-as-uint32/ampd_power/ampd_power.dat,-1,0,8,f,96710400,None,10.29
+Simple8B,9961428,4073.27,ampd_power,8547.8,/colmajor/uint8-as-uint32/ampd_power/ampd_power.dat,-1,0,8,f,96710400,None,10.3

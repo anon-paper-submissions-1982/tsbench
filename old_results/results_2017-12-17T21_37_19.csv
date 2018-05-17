@@ -1,0 +1,3 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,96957832,8407.87,pamap,8478.57,False,/rowmajor/uint8/pamap/pamap.dat,-1,0,8,c,96957832,100.0
+Delta -31,17267248,490.81,pamap,3132.94,False,/rowmajor/uint8/pamap/pamap.dat,-1,0,8,c,96957832,17.81

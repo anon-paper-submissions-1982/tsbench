@@ -1,0 +1,11 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Filename,Memlimit,MinIters,Nbits,Order,Original size,Preprocs,Ratio
+Memcpy,6307215,5590.17,ampd_gas,2613.03,/colmajor/uint8/ampd_gas/ampd_gas.dat,-1,20,8,f,6307215,None,100.0
+Zstd -1,90002,2395.11,ampd_gas,2253.82,/colmajor/uint8/ampd_gas/ampd_gas.dat,-1,20,8,f,6307215,None,1.43
+Zstd -9,72767,418.96,ampd_gas,3055.55,/colmajor/uint8/ampd_gas/ampd_gas.dat,-1,20,8,f,6307215,None,1.15
+Snappy,398464,2734.63,ampd_gas,2361.75,/colmajor/uint8/ampd_gas/ampd_gas.dat,-1,20,8,f,6307215,None,6.32
+LZO -1,190097,3211.86,ampd_gas,907.66,/colmajor/uint8/ampd_gas/ampd_gas.dat,-1,20,8,f,6307215,None,3.01
+LZO -9,190097,3633.61,ampd_gas,925.71,/colmajor/uint8/ampd_gas/ampd_gas.dat,-1,20,8,f,6307215,None,3.01
+LZ4,192297,4223.38,ampd_gas,3335.31,/colmajor/uint8/ampd_gas/ampd_gas.dat,-1,20,8,f,6307215,None,3.05
+Zlib -1,130035,416.11,ampd_gas,986.47,/colmajor/uint8/ampd_gas/ampd_gas.dat,-1,20,8,f,6307215,None,2.06
+Zlib -9,68245,17.85,ampd_gas,595.65,/colmajor/uint8/ampd_gas/ampd_gas.dat,-1,20,8,f,6307215,None,1.08
+Huffman,1242544,915.44,ampd_gas,1463.95,/colmajor/uint8/ampd_gas/ampd_gas.dat,-1,20,8,f,6307215,None,19.7

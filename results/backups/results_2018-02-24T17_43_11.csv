@@ -1,0 +1,6 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Filename,Memlimit,MinIters,Nbits,Order,Original size,Preprocs,Ratio
+Memcpy,6307220,8030.53,ampd_water,5790.38,/rowmajor/uint8/ampd_water/ampd_water.dat,-1,0,8,c,6307220,None,100.0
+SprintzDelta -2,638056,649.02,ampd_water,1960.19,/rowmajor/uint8/ampd_water/ampd_water.dat,-1,0,8,c,6307220,None,10.12
+SprintzXff -2,642686,419.89,ampd_water,592.9,/rowmajor/uint8/ampd_water/ampd_water.dat,-1,0,8,c,6307220,None,10.19
+SprintzDelta_Huf -2,399262,502.76,ampd_water,747.11,/rowmajor/uint8/ampd_water/ampd_water.dat,-1,0,8,c,6307220,None,6.33
+SprintzXff_Huf -2,432958,308.38,ampd_water,392.8,/rowmajor/uint8/ampd_water/ampd_water.dat,-1,0,8,c,6307220,None,6.86

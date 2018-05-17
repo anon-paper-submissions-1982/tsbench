@@ -1,0 +1,6 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Filename,Memlimit,MinIters,Nbits,Order,Original size,Preprocs,Ratio
+Memcpy,113613280,6146.46,msrc,7206.22,/rowmajor/uint16/msrc/msrc.dat,-1,0,16,c,113613280,None,100.0
+SprintzDelta_16b -80,50232400,950.52,msrc,3401.19,/rowmajor/uint16/msrc/msrc.dat,-1,0,16,c,113613280,None,44.21
+SprintzXff_16b -80,50109440,671.17,msrc,3037.33,/rowmajor/uint16/msrc/msrc.dat,-1,0,16,c,113613280,None,44.11
+SprintzDelta_Huf_16b -80,49088630,547.4,msrc,985.35,/rowmajor/uint16/msrc/msrc.dat,-1,0,16,c,113613280,None,43.21
+SprintzXff_Huf_16b -80,49147025,434.34,msrc,944.9,/rowmajor/uint16/msrc/msrc.dat,-1,0,16,c,113613280,None,43.26

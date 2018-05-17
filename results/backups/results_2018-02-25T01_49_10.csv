@@ -1,0 +1,6 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Filename,Memlimit,MinIters,Nbits,Order,Original size,Preprocs,Ratio
+Memcpy,96957832,7477.83,pamap,8314.58,/rowmajor/uint8/pamap/pamap.dat,-1,20,8,c,96957832,None,100.0
+SprintzDelta -31,17267248,550.28,pamap,3899.33,/rowmajor/uint8/pamap/pamap.dat,-1,20,8,c,96957832,None,17.81
+SprintzXff -31,17755641,372.13,pamap,3252.51,/rowmajor/uint8/pamap/pamap.dat,-1,20,8,c,96957832,None,18.31
+SprintzDelta_Huf -31,11540238,433.8,pamap,1593.83,/rowmajor/uint8/pamap/pamap.dat,-1,20,8,c,96957832,None,11.9
+SprintzXff_Huf -31,12130647,336.4,pamap,1400.41,/rowmajor/uint8/pamap/pamap.dat,-1,20,8,c,96957832,None,12.51

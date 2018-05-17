@@ -1,0 +1,10 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,122640,7525.77,ampd_weather,3009.5,True,/colmajor/uint8/ampd_weather/ampd_weather.dat,1,5,8,f,122640,100.0
+Zstd -1,68036,83.89,ampd_weather,153.33,True,/colmajor/uint8/ampd_weather/ampd_weather.dat,1,5,8,f,122640,55.48
+Zstd -9,70334,23.63,ampd_weather,139.59,True,/colmajor/uint8/ampd_weather/ampd_weather.dat,1,5,8,f,122640,57.35
+LZ4,109780,321.21,ampd_weather,0.0,True,/colmajor/uint8/ampd_weather/ampd_weather.dat,1,5,8,f,122640,89.51
+LZ4HC -1,107998,39.94,ampd_weather,0.0,True,/colmajor/uint8/ampd_weather/ampd_weather.dat,1,5,8,f,122640,88.06
+LZ4HC -9,106819,31.04,ampd_weather,0.0,True,/colmajor/uint8/ampd_weather/ampd_weather.dat,1,5,8,f,122640,87.1
+Snappy,109427,285.99,ampd_weather,549.73,True,/colmajor/uint8/ampd_weather/ampd_weather.dat,1,5,8,f,122640,89.23
+FSE,67958,77.13,ampd_weather,100.64,True,/colmajor/uint8/ampd_weather/ampd_weather.dat,1,5,8,f,122640,55.41
+Huffman,65690,83.31,ampd_weather,108.55,True,/colmajor/uint8/ampd_weather/ampd_weather.dat,1,5,8,f,122640,53.56

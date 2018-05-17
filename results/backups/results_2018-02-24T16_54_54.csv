@@ -1,0 +1,6 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Filename,Memlimit,MinIters,Nbits,Order,Original size,Preprocs,Ratio
+Memcpy,301923720,7513.5,uci_gas,7620.87,/rowmajor/uint16/uci_gas/uci_gas.dat,-1,0,16,c,301923720,None,100.0
+SprintzDelta_16b -18,155286250,931.1,uci_gas,2718.95,/rowmajor/uint16/uci_gas/uci_gas.dat,-1,0,16,c,301923720,None,51.43
+SprintzXff_16b -18,153154330,661.93,uci_gas,2522.25,/rowmajor/uint16/uci_gas/uci_gas.dat,-1,0,16,c,301923720,None,50.73
+SprintzDelta_Huf_16b -18,152489792,523.42,uci_gas,810.34,/rowmajor/uint16/uci_gas/uci_gas.dat,-1,0,16,c,301923720,None,50.51
+SprintzXff_Huf_16b -18,151847377,421.39,uci_gas,787.88,/rowmajor/uint16/uci_gas/uci_gas.dat,-1,0,16,c,301923720,None,50.29

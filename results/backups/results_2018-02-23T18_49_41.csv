@@ -1,0 +1,21 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Filename,Memlimit,MinIters,Nbits,Order,Original size,Preprocs,Ratio
+Memcpy,200000000,7583.06,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,6919.39,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0
+FIRE_16b -1,200000006,627.24,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,643.65,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0
+FIRE_16b -2,200000006,1121.82,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,1082.57,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0
+FIRE_16b -3,200000006,1644.47,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,1720.29,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0
+FIRE_16b -4,200000006,2346.0,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,2486.23,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0
+FIRE_16b -5,200000006,2781.15,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,2917.25,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0
+FIRE_16b -6,200000006,3080.77,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,3345.49,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0
+FIRE_16b -7,200000006,3584.2,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,3493.48,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0
+FIRE_16b -8,200000006,3856.64,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,4206.93,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0
+FIRE_16b -9,200000006,4211.02,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,4128.81,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0
+FIRE_16b -10,200000006,4330.5,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,4301.35,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0
+FIRE_16b -11,200000006,4556.77,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,4599.82,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0
+FIRE_16b -12,200000006,4797.12,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,4930.61,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0
+FIRE_16b -13,200000006,5399.91,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,5489.27,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0
+FIRE_16b -14,200000006,5023.71,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,5152.69,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0
+FIRE_16b -15,200000006,5699.31,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,5671.8,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0
+FIRE_16b -16,200000006,5643.97,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,5220.6,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0
+FIRE_16b -17,200000006,4673.66,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,5077.15,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0
+FIRE_16b -18,200000006,4504.76,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,4898.6,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0
+FIRE_16b -19,200000006,5348.69,RAW_PATH:/Users/davis/Desktop/datasets/compress/synthetic/synth_100M_u16_ratio=1.dat,5022.51,/synthetic/synth_100M_u16_ratio=1.dat,-1,10,16,c,200000000,None,100.0

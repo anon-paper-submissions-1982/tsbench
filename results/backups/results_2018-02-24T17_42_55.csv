@@ -1,0 +1,5 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Filename,Memlimit,MinIters,Nbits,Order,Original size,Preprocs,Ratio
+Memcpy,227226560,6812.64,msrc,6683.99,/colmajor/uint8-as-uint32/msrc/msrc.dat,-1,0,8,f,227226560,None,100.0
+SIMDBP128,41054560,8965.17,msrc,7686.43,/colmajor/uint8-as-uint32/msrc/msrc.dat,-1,0,8,f,227226560,None,18.07
+FastPFOR,41090384,1940.54,msrc,8331.94,/colmajor/uint8-as-uint32/msrc/msrc.dat,-1,0,8,f,227226560,None,18.08
+Simple8B,46349932,3893.25,msrc,7986.4,/colmajor/uint8-as-uint32/msrc/msrc.dat,-1,0,8,f,227226560,None,20.4

@@ -1,0 +1,18 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,24177600,12563.11,ampd_power,11502.69,False,/colmajor/uint8/ampd_power/ampd_power.dat,-1,5,8,f,24177600,100.0
+Zstd -1,3500190,519.57,ampd_power,1065.62,False,/colmajor/uint8/ampd_power/ampd_power.dat,-1,5,8,f,24177600,14.48
+Zstd -9,3034289,76.7,ampd_power,1204.99,False,/colmajor/uint8/ampd_power/ampd_power.dat,-1,5,8,f,24177600,12.55
+LZ4,5623021,930.5,ampd_power,2685.26,False,/colmajor/uint8/ampd_power/ampd_power.dat,-1,5,8,f,24177600,23.26
+LZ4HC -1,5154491,208.5,ampd_power,2528.77,False,/colmajor/uint8/ampd_power/ampd_power.dat,-1,5,8,f,24177600,21.32
+LZ4HC -9,3601675,10.54,ampd_power,3744.9,False,/colmajor/uint8/ampd_power/ampd_power.dat,-1,5,8,f,24177600,14.9
+Snappy,5528841,709.29,ampd_power,1502.79,False,/colmajor/uint8/ampd_power/ampd_power.dat,-1,5,8,f,24177600,22.87
+FSE,12692121,450.08,ampd_power,583.22,False,/colmajor/uint8/ampd_power/ampd_power.dat,-1,5,8,f,24177600,52.5
+Huffman,6753414,765.3,ampd_power,1061.04,False,/colmajor/uint8/ampd_power/ampd_power.dat,-1,5,8,f,24177600,27.93
+Delta,5972061,673.58,ampd_power,1694.08,False,/colmajor/uint8/ampd_power/ampd_power.dat,-1,5,8,f,24177600,24.7
+DoubleDelta,6648849,635.87,ampd_power,1050.2,False,/colmajor/uint8/ampd_power/ampd_power.dat,-1,5,8,f,24177600,27.5
+DeltaRLE_HUF,3738715,530.24,ampd_power,1440.16,False,/colmajor/uint8/ampd_power/ampd_power.dat,-1,5,8,f,24177600,15.46
+DeltaRLE,5553184,658.85,ampd_power,2611.14,False,/colmajor/uint8/ampd_power/ampd_power.dat,-1,5,8,f,24177600,22.97
+BitShuffle8b -1,14376447,639.8,ampd_power,1063.56,False,/colmajor/uint8/ampd_power/ampd_power.dat,-1,5,8,f,24177600,59.46
+BitShuffle8b -9,6468576,359.41,ampd_power,789.63,False,/colmajor/uint8/ampd_power/ampd_power.dat,-1,5,8,f,24177600,26.75
+ByteShuffle8b -1,13792961,1424.3,ampd_power,8425.21,False,/colmajor/uint8/ampd_power/ampd_power.dat,-1,5,8,f,24177600,57.05
+ByteShuffle8b -9,7588396,483.0,ampd_power,1398.2,False,/colmajor/uint8/ampd_power/ampd_power.dat,-1,5,8,f,24177600,31.39

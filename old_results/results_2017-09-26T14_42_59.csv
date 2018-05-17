@@ -1,0 +1,10 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,96957832,3649.87,pamap,2175.69,True,/rowmajor/uint8/pamap/pamap.dat,-1,5,8,c,96957832,100.0
+Zstd -1,30096356,320.51,pamap,538.62,True,/rowmajor/uint8/pamap/pamap.dat,-1,5,8,c,96957832,31.04
+Zstd -9,27646584,34.62,pamap,473.73,True,/rowmajor/uint8/pamap/pamap.dat,-1,5,8,c,96957832,28.51
+LZ4,41752991,511.12,pamap,1317.61,True,/rowmajor/uint8/pamap/pamap.dat,-1,5,8,c,96957832,43.06
+LZ4HC -1,36559981,128.2,pamap,1256.63,True,/rowmajor/uint8/pamap/pamap.dat,-1,5,8,c,96957832,37.71
+LZ4HC -9,34662815,26.48,pamap,1438.11,True,/rowmajor/uint8/pamap/pamap.dat,-1,5,8,c,96957832,35.75
+Snappy,40695040,430.65,pamap,1053.87,True,/rowmajor/uint8/pamap/pamap.dat,-1,5,8,c,96957832,41.97
+FSE,88859138,396.2,pamap,450.69,True,/rowmajor/uint8/pamap/pamap.dat,-1,5,8,c,96957832,91.65
+Huffman,80173305,651.0,pamap,544.23,True,/rowmajor/uint8/pamap/pamap.dat,-1,5,8,c,96957832,82.69

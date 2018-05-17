@@ -1,0 +1,5 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Filename,Memlimit,MinIters,Nbits,Order,Original size,Preprocs,Ratio
+Memcpy,25228860,7775.83,ampd_gas,8659.3,/colmajor/uint8-as-uint32/ampd_gas/ampd_gas.dat,-1,0,8,f,25228860,None,100.0
+SIMDBP128,2358400,11520.71,ampd_gas,11209.89,/colmajor/uint8-as-uint32/ampd_gas/ampd_gas.dat,-1,0,8,f,25228860,None,9.35
+FastPFOR,1713756,1730.41,ampd_gas,12181.65,/colmajor/uint8-as-uint32/ampd_gas/ampd_gas.dat,-1,0,8,f,25228860,None,6.79
+Simple8B,2191932,4967.45,ampd_gas,10685.21,/colmajor/uint8-as-uint32/ampd_gas/ampd_gas.dat,-1,0,8,f,25228860,None,8.69

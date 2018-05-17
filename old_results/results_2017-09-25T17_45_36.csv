@@ -1,0 +1,3 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,227226560,2328.02,msrc,7210.02,False,/colmajor/uint8-as-uint32/msrc/msrc.dat,16,5,8,f,227226560,100.0
+FastPFOR,41322784,2002.12,msrc,6477.62,False,/colmajor/uint8-as-uint32/msrc/msrc.dat,16,5,8,f,227226560,18.19

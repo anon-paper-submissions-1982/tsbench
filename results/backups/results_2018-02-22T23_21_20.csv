@@ -1,0 +1,767 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Filename,Memlimit,MinIters,Nbits,Order,Original size,Preprocs,Ratio
+Memcpy,112695,1271.11,ucr,1177.0,/colmajor/uint8/ucr/DiatomSizeReduction.dat,-1,10,8,f,112695,DoubleDelta,100.0
+Zstd -1,32863,130.26,ucr,254.64,/colmajor/uint8/ucr/DiatomSizeReduction.dat,-1,10,8,f,112695,DoubleDelta,29.16
+Zstd -9,29506,11.73,ucr,384.74,/colmajor/uint8/ucr/DiatomSizeReduction.dat,-1,10,8,f,112695,DoubleDelta,26.18
+Snappy,51550,165.61,ucr,337.69,/colmajor/uint8/ucr/DiatomSizeReduction.dat,-1,10,8,f,112695,DoubleDelta,45.74
+LZO -1,53268,137.22,ucr,157.34,/colmajor/uint8/ucr/DiatomSizeReduction.dat,-1,10,8,f,112695,DoubleDelta,47.27
+LZO -9,53268,148.07,ucr,157.62,/colmajor/uint8/ucr/DiatomSizeReduction.dat,-1,10,8,f,112695,DoubleDelta,47.27
+LZ4,57998,135.53,ucr,299.89,/colmajor/uint8/ucr/DiatomSizeReduction.dat,-1,10,8,f,112695,DoubleDelta,51.46
+Zlib -1,37179,31.84,ucr,146.4,/colmajor/uint8/ucr/DiatomSizeReduction.dat,-1,10,8,f,112695,DoubleDelta,32.99
+Zlib -9,28350,1.05,ucr,215.95,/colmajor/uint8/ucr/DiatomSizeReduction.dat,-1,10,8,f,112695,DoubleDelta,25.16
+Huffman,30285,316.9,ucr,446.96,/colmajor/uint8/ucr/DiatomSizeReduction.dat,-1,10,8,f,112695,DoubleDelta,26.87
+Zstd -1,52095,73.03,ucr,259.1,/colmajor/uint8/ucr/MoteStrain.dat,-1,10,8,f,113203,DoubleDelta,46.02
+Zstd -9,52128,13.13,ucr,241.63,/colmajor/uint8/ucr/MoteStrain.dat,-1,10,8,f,113203,DoubleDelta,46.05
+Snappy,77666,140.55,ucr,331.6,/colmajor/uint8/ucr/MoteStrain.dat,-1,10,8,f,113203,DoubleDelta,68.61
+LZO -1,76525,171.54,ucr,233.83,/colmajor/uint8/ucr/MoteStrain.dat,-1,10,8,f,113203,DoubleDelta,67.6
+LZO -9,76525,170.45,ucr,154.73,/colmajor/uint8/ucr/MoteStrain.dat,-1,10,8,f,113203,DoubleDelta,67.6
+LZ4,82553,120.23,ucr,331.63,/colmajor/uint8/ucr/MoteStrain.dat,-1,10,8,f,113203,DoubleDelta,72.92
+Zlib -1,58744,28.2,ucr,120.06,/colmajor/uint8/ucr/MoteStrain.dat,-1,10,8,f,113203,DoubleDelta,51.89
+Zlib -9,52342,1.6,ucr,153.58,/colmajor/uint8/ucr/MoteStrain.dat,-1,10,8,f,113203,DoubleDelta,46.24
+Huffman,51324,297.84,ucr,348.41,/colmajor/uint8/ucr/MoteStrain.dat,-1,10,8,f,113203,DoubleDelta,45.34
+Zstd -1,236568,158.42,ucr,386.97,/colmajor/uint8/ucr/wafer.dat,-1,10,8,f,1124743,DoubleDelta,21.03
+Zstd -9,206945,36.62,ucr,356.28,/colmajor/uint8/ucr/wafer.dat,-1,10,8,f,1124743,DoubleDelta,18.4
+Snappy,349127,191.2,ucr,428.4,/colmajor/uint8/ucr/wafer.dat,-1,10,8,f,1124743,DoubleDelta,31.04
+LZO -1,368603,225.84,ucr,392.76,/colmajor/uint8/ucr/wafer.dat,-1,10,8,f,1124743,DoubleDelta,32.77
+LZO -9,368603,261.23,ucr,356.54,/colmajor/uint8/ucr/wafer.dat,-1,10,8,f,1124743,DoubleDelta,32.77
+LZ4,357702,215.3,ucr,612.09,/colmajor/uint8/ucr/wafer.dat,-1,10,8,f,1124743,DoubleDelta,31.8
+Zlib -1,284639,81.79,ucr,232.7,/colmajor/uint8/ucr/wafer.dat,-1,10,8,f,1124743,DoubleDelta,25.31
+Zlib -9,218157,3.41,ucr,229.47,/colmajor/uint8/ucr/wafer.dat,-1,10,8,f,1124743,DoubleDelta,19.4
+Huffman,300043,293.42,ucr,391.85,/colmajor/uint8/ucr/wafer.dat,-1,10,8,f,1124743,DoubleDelta,26.68
+Zstd -1,87546,63.93,ucr,184.37,/colmajor/uint8/ucr/Worms.dat,-1,10,8,f,233485,DoubleDelta,37.5
+Zstd -9,86932,12.14,ucr,307.72,/colmajor/uint8/ucr/Worms.dat,-1,10,8,f,233485,DoubleDelta,37.23
+Snappy,153554,129.34,ucr,347.8,/colmajor/uint8/ucr/Worms.dat,-1,10,8,f,233485,DoubleDelta,65.77
+LZO -1,152542,149.51,ucr,242.61,/colmajor/uint8/ucr/Worms.dat,-1,10,8,f,233485,DoubleDelta,65.33
+LZO -9,152542,151.63,ucr,244.73,/colmajor/uint8/ucr/Worms.dat,-1,10,8,f,233485,DoubleDelta,65.33
+LZ4,157132,145.49,ucr,503.07,/colmajor/uint8/ucr/Worms.dat,-1,10,8,f,233485,DoubleDelta,67.3
+Zlib -1,109444,47.62,ucr,135.27,/colmajor/uint8/ucr/Worms.dat,-1,10,8,f,233485,DoubleDelta,46.87
+Zlib -9,99398,2.71,ucr,141.26,/colmajor/uint8/ucr/Worms.dat,-1,10,8,f,233485,DoubleDelta,42.57
+Huffman,97542,263.51,ucr,365.65,/colmajor/uint8/ucr/Worms.dat,-1,10,8,f,233485,DoubleDelta,41.78
+Zstd -1,36984,158.42,ucr,327.26,/colmajor/uint8/ucr/ProximalPhalanxOutlineCorrect.dat,-1,10,8,f,75730,DoubleDelta,48.84
+Zstd -9,38539,25.33,ucr,255.72,/colmajor/uint8/ucr/ProximalPhalanxOutlineCorrect.dat,-1,10,8,f,75730,DoubleDelta,50.89
+Snappy,63351,291.07,ucr,501.62,/colmajor/uint8/ucr/ProximalPhalanxOutlineCorrect.dat,-1,10,8,f,75730,DoubleDelta,83.65
+LZO -1,62354,117.16,ucr,282.06,/colmajor/uint8/ucr/ProximalPhalanxOutlineCorrect.dat,-1,10,8,f,75730,DoubleDelta,82.34
+LZO -9,62354,127.58,ucr,284.71,/colmajor/uint8/ucr/ProximalPhalanxOutlineCorrect.dat,-1,10,8,f,75730,DoubleDelta,82.34
+LZ4,62034,136.4,ucr,382.63,/colmajor/uint8/ucr/ProximalPhalanxOutlineCorrect.dat,-1,10,8,f,75730,DoubleDelta,81.91
+Zlib -1,41726,27.17,ucr,85.22,/colmajor/uint8/ucr/ProximalPhalanxOutlineCorrect.dat,-1,10,8,f,75730,DoubleDelta,55.1
+Zlib -9,39429,8.73,ucr,126.39,/colmajor/uint8/ucr/ProximalPhalanxOutlineCorrect.dat,-1,10,8,f,75730,DoubleDelta,52.07
+Huffman,40619,287.28,ucr,343.15,/colmajor/uint8/ucr/ProximalPhalanxOutlineCorrect.dat,-1,10,8,f,75730,DoubleDelta,53.64
+Zstd -1,15424,93.74,ucr,234.38,/colmajor/uint8/ucr/Plane.dat,-1,10,8,f,31285,DoubleDelta,49.3
+Zstd -9,15954,12.88,ucr,135.85,/colmajor/uint8/ucr/Plane.dat,-1,10,8,f,31285,DoubleDelta,51.0
+Snappy,25536,96.55,ucr,228.96,/colmajor/uint8/ucr/Plane.dat,-1,10,8,f,31285,DoubleDelta,81.62
+LZO -1,24903,86.58,ucr,146.82,/colmajor/uint8/ucr/Plane.dat,-1,10,8,f,31285,DoubleDelta,79.6
+LZO -9,24903,99.57,ucr,146.76,/colmajor/uint8/ucr/Plane.dat,-1,10,8,f,31285,DoubleDelta,79.6
+LZ4,25684,93.49,ucr,311.84,/colmajor/uint8/ucr/Plane.dat,-1,10,8,f,31285,DoubleDelta,82.1
+Zlib -1,17719,28.2,ucr,74.71,/colmajor/uint8/ucr/Plane.dat,-1,10,8,f,31285,DoubleDelta,56.64
+Zlib -9,16423,4.26,ucr,112.35,/colmajor/uint8/ucr/Plane.dat,-1,10,8,f,31285,DoubleDelta,52.49
+Huffman,14864,178.66,ucr,214.44,/colmajor/uint8/ucr/Plane.dat,-1,10,8,f,31285,DoubleDelta,47.51
+Zstd -1,39326,83.15,ucr,219.71,/colmajor/uint8/ucr/DistalPhalanxOutlineCorrect.dat,-1,10,8,f,74455,DoubleDelta,52.82
+Zstd -9,40884,20.19,ucr,242.05,/colmajor/uint8/ucr/DistalPhalanxOutlineCorrect.dat,-1,10,8,f,74455,DoubleDelta,54.91
+Snappy,71384,490.42,ucr,642.6,/colmajor/uint8/ucr/DistalPhalanxOutlineCorrect.dat,-1,10,8,f,74455,DoubleDelta,95.88
+LZO -1,63037,250.12,ucr,384.77,/colmajor/uint8/ucr/DistalPhalanxOutlineCorrect.dat,-1,10,8,f,74455,DoubleDelta,84.66
+LZO -9,63037,233.03,ucr,384.54,/colmajor/uint8/ucr/DistalPhalanxOutlineCorrect.dat,-1,10,8,f,74455,DoubleDelta,84.66
+LZ4,64076,289.54,ucr,590.95,/colmajor/uint8/ucr/DistalPhalanxOutlineCorrect.dat,-1,10,8,f,74455,DoubleDelta,86.06
+Zlib -1,44046,27.81,ucr,83.12,/colmajor/uint8/ucr/DistalPhalanxOutlineCorrect.dat,-1,10,8,f,74455,DoubleDelta,59.16
+Zlib -9,41981,10.05,ucr,153.96,/colmajor/uint8/ucr/DistalPhalanxOutlineCorrect.dat,-1,10,8,f,74455,DoubleDelta,56.38
+Huffman,42535,303.93,ucr,519.83,/colmajor/uint8/ucr/DistalPhalanxOutlineCorrect.dat,-1,10,8,f,74455,DoubleDelta,57.13
+Zstd -1,37167,123.95,ucr,293.33,/colmajor/uint8/ucr/ToeSegmentation1.dat,-1,10,8,f,75571,DoubleDelta,49.18
+Zstd -9,38454,17.5,ucr,233.56,/colmajor/uint8/ucr/ToeSegmentation1.dat,-1,10,8,f,75571,DoubleDelta,50.88
+Snappy,62516,86.97,ucr,235.82,/colmajor/uint8/ucr/ToeSegmentation1.dat,-1,10,8,f,75571,DoubleDelta,82.72
+LZO -1,61229,104.31,ucr,171.97,/colmajor/uint8/ucr/ToeSegmentation1.dat,-1,10,8,f,75571,DoubleDelta,81.02
+LZO -9,61229,108.05,ucr,166.29,/colmajor/uint8/ucr/ToeSegmentation1.dat,-1,10,8,f,75571,DoubleDelta,81.02
+LZ4,65112,146.51,ucr,345.94,/colmajor/uint8/ucr/ToeSegmentation1.dat,-1,10,8,f,75571,DoubleDelta,86.16
+Zlib -1,42422,29.7,ucr,83.9,/colmajor/uint8/ucr/ToeSegmentation1.dat,-1,10,8,f,75571,DoubleDelta,56.14
+Zlib -9,40143,7.44,ucr,120.26,/colmajor/uint8/ucr/ToeSegmentation1.dat,-1,10,8,f,75571,DoubleDelta,53.12
+Huffman,38692,207.33,ucr,346.13,/colmajor/uint8/ucr/ToeSegmentation1.dat,-1,10,8,f,75571,DoubleDelta,51.2
+Zstd -1,77864,72.41,ucr,245.57,/colmajor/uint8/ucr/WordsSynonyms.dat,-1,10,8,f,248870,DoubleDelta,31.29
+Zstd -9,72998,12.89,ucr,332.41,/colmajor/uint8/ucr/WordsSynonyms.dat,-1,10,8,f,248870,DoubleDelta,29.33
+Snappy,121471,141.71,ucr,336.15,/colmajor/uint8/ucr/WordsSynonyms.dat,-1,10,8,f,248870,DoubleDelta,48.81
+LZO -1,123427,118.09,ucr,164.75,/colmajor/uint8/ucr/WordsSynonyms.dat,-1,10,8,f,248870,DoubleDelta,49.59
+LZO -9,123427,119.17,ucr,249.06,/colmajor/uint8/ucr/WordsSynonyms.dat,-1,10,8,f,248870,DoubleDelta,49.59
+LZ4,136650,178.98,ucr,447.31,/colmajor/uint8/ucr/WordsSynonyms.dat,-1,10,8,f,248870,DoubleDelta,54.91
+Zlib -1,87328,38.35,ucr,147.52,/colmajor/uint8/ucr/WordsSynonyms.dat,-1,10,8,f,248870,DoubleDelta,35.09
+Zlib -9,69963,0.71,ucr,210.26,/colmajor/uint8/ucr/WordsSynonyms.dat,-1,10,8,f,248870,DoubleDelta,28.11
+Huffman,69646,152.18,ucr,387.84,/colmajor/uint8/ucr/WordsSynonyms.dat,-1,10,8,f,248870,DoubleDelta,27.98
+Zstd -1,614561,163.8,ucr,403.71,/colmajor/uint8/ucr/ElectricDevices.dat,-1,10,8,f,1680332,DoubleDelta,36.57
+Zstd -9,556802,38.66,ucr,393.03,/colmajor/uint8/ucr/ElectricDevices.dat,-1,10,8,f,1680332,DoubleDelta,33.14
+Snappy,729142,221.09,ucr,468.4,/colmajor/uint8/ucr/ElectricDevices.dat,-1,10,8,f,1680332,DoubleDelta,43.39
+LZO -1,745344,211.13,ucr,351.18,/colmajor/uint8/ucr/ElectricDevices.dat,-1,10,8,f,1680332,DoubleDelta,44.36
+LZO -9,745344,236.19,ucr,455.27,/colmajor/uint8/ucr/ElectricDevices.dat,-1,10,8,f,1680332,DoubleDelta,44.36
+LZ4,751998,285.07,ucr,667.69,/colmajor/uint8/ucr/ElectricDevices.dat,-1,10,8,f,1680332,DoubleDelta,44.75
+Zlib -1,598165,76.45,ucr,190.61,/colmajor/uint8/ucr/ElectricDevices.dat,-1,10,8,f,1680332,DoubleDelta,35.6
+Zlib -9,537667,5.8,ucr,247.88,/colmajor/uint8/ucr/ElectricDevices.dat,-1,10,8,f,1680332,DoubleDelta,32.0
+Huffman,861964,375.32,ucr,399.05,/colmajor/uint8/ucr/ElectricDevices.dat,-1,10,8,f,1680332,DoubleDelta,51.3
+Zstd -1,7650,81.23,ucr,241.83,/colmajor/uint8/ucr/Coffee.dat,-1,10,8,f,16291,DoubleDelta,46.96
+Zstd -9,8081,10.13,ucr,118.15,/colmajor/uint8/ucr/Coffee.dat,-1,10,8,f,16291,DoubleDelta,49.6
+Snappy,13597,98.64,ucr,212.99,/colmajor/uint8/ucr/Coffee.dat,-1,10,8,f,16291,DoubleDelta,83.46
+LZO -1,13270,106.98,ucr,158.07,/colmajor/uint8/ucr/Coffee.dat,-1,10,8,f,16291,DoubleDelta,81.46
+LZO -9,13270,106.85,ucr,157.06,/colmajor/uint8/ucr/Coffee.dat,-1,10,8,f,16291,DoubleDelta,81.46
+LZ4,13567,110.47,ucr,290.91,/colmajor/uint8/ucr/Coffee.dat,-1,10,8,f,16291,DoubleDelta,83.28
+Zlib -1,8987,25.85,ucr,74.66,/colmajor/uint8/ucr/Coffee.dat,-1,10,8,f,16291,DoubleDelta,55.17
+Zlib -9,8507,8.58,ucr,70.95,/colmajor/uint8/ucr/Coffee.dat,-1,10,8,f,16291,DoubleDelta,52.22
+Huffman,7646,159.74,ucr,183.61,/colmajor/uint8/ucr/Coffee.dat,-1,10,8,f,16291,DoubleDelta,46.93
+Zstd -1,25656,73.53,ucr,169.99,/colmajor/uint8/ucr/ToeSegmentation2.dat,-1,10,8,f,57763,DoubleDelta,44.42
+Zstd -9,26882,10.64,ucr,211.39,/colmajor/uint8/ucr/ToeSegmentation2.dat,-1,10,8,f,57763,DoubleDelta,46.54
+Snappy,42033,93.0,ucr,227.43,/colmajor/uint8/ucr/ToeSegmentation2.dat,-1,10,8,f,57763,DoubleDelta,72.77
+LZO -1,41323,110.65,ucr,156.15,/colmajor/uint8/ucr/ToeSegmentation2.dat,-1,10,8,f,57763,DoubleDelta,71.54
+LZO -9,41323,107.42,ucr,162.65,/colmajor/uint8/ucr/ToeSegmentation2.dat,-1,10,8,f,57763,DoubleDelta,71.54
+LZ4,44034,111.99,ucr,286.75,/colmajor/uint8/ucr/ToeSegmentation2.dat,-1,10,8,f,57763,DoubleDelta,76.23
+Zlib -1,29648,26.34,ucr,81.44,/colmajor/uint8/ucr/ToeSegmentation2.dat,-1,10,8,f,57763,DoubleDelta,51.33
+Zlib -9,27581,3.5,ucr,150.44,/colmajor/uint8/ucr/ToeSegmentation2.dat,-1,10,8,f,57763,DoubleDelta,47.75
+Huffman,25203,216.2,ucr,338.29,/colmajor/uint8/ucr/ToeSegmentation2.dat,-1,10,8,f,57763,DoubleDelta,43.63
+Zstd -1,97272,116.29,ucr,285.46,/colmajor/uint8/ucr/Haptics.dat,-1,10,8,f,507906,DoubleDelta,19.15
+Zstd -9,84619,39.74,ucr,361.9,/colmajor/uint8/ucr/Haptics.dat,-1,10,8,f,507906,DoubleDelta,16.66
+Snappy,163300,178.93,ucr,341.38,/colmajor/uint8/ucr/Haptics.dat,-1,10,8,f,507906,DoubleDelta,32.15
+LZO -1,178958,220.64,ucr,274.82,/colmajor/uint8/ucr/Haptics.dat,-1,10,8,f,507906,DoubleDelta,35.23
+LZO -9,178958,217.16,ucr,274.87,/colmajor/uint8/ucr/Haptics.dat,-1,10,8,f,507906,DoubleDelta,35.23
+LZ4,198743,211.36,ucr,449.84,/colmajor/uint8/ucr/Haptics.dat,-1,10,8,f,507906,DoubleDelta,39.13
+Zlib -1,115549,72.38,ucr,175.4,/colmajor/uint8/ucr/Haptics.dat,-1,10,8,f,507906,DoubleDelta,22.75
+Zlib -9,75317,1.0,ucr,308.61,/colmajor/uint8/ucr/Haptics.dat,-1,10,8,f,507906,DoubleDelta,14.83
+Huffman,113143,296.22,ucr,398.22,/colmajor/uint8/ucr/Haptics.dat,-1,10,8,f,507906,DoubleDelta,22.28
+Zstd -1,1539222,210.28,ucr,367.62,/colmajor/uint8/ucr/StarLightCurves.dat,-1,10,8,f,9503839,DoubleDelta,16.2
+Zstd -9,1250811,46.09,ucr,426.62,/colmajor/uint8/ucr/StarLightCurves.dat,-1,10,8,f,9503839,DoubleDelta,13.16
+Snappy,2716679,236.25,ucr,456.07,/colmajor/uint8/ucr/StarLightCurves.dat,-1,10,8,f,9503839,DoubleDelta,28.59
+LZO -1,3014449,306.3,ucr,364.66,/colmajor/uint8/ucr/StarLightCurves.dat,-1,10,8,f,9503839,DoubleDelta,31.72
+LZO -9,3014449,319.16,ucr,371.31,/colmajor/uint8/ucr/StarLightCurves.dat,-1,10,8,f,9503839,DoubleDelta,31.72
+LZ4,3445115,329.12,ucr,578.71,/colmajor/uint8/ucr/StarLightCurves.dat,-1,10,8,f,9503839,DoubleDelta,36.25
+Zlib -1,1763759,88.78,ucr,238.9,/colmajor/uint8/ucr/StarLightCurves.dat,-1,10,8,f,9503839,DoubleDelta,18.56
+Zlib -9,994307,1.0,ucr,385.01,/colmajor/uint8/ucr/StarLightCurves.dat,-1,10,8,f,9503839,DoubleDelta,10.46
+Huffman,1867951,399.62,ucr,549.3,/colmajor/uint8/ucr/StarLightCurves.dat,-1,10,8,f,9503839,DoubleDelta,19.65
+Zstd -1,64149,239.6,ucr,410.16,/colmajor/uint8/ucr/ScreenType.dat,-1,10,8,f,543745,DoubleDelta,11.8
+Zstd -9,55460,61.07,ucr,512.18,/colmajor/uint8/ucr/ScreenType.dat,-1,10,8,f,543745,DoubleDelta,10.2
+Snappy,103341,243.65,ucr,483.15,/colmajor/uint8/ucr/ScreenType.dat,-1,10,8,f,543745,DoubleDelta,19.01
+LZO -1,98845,184.76,ucr,381.73,/colmajor/uint8/ucr/ScreenType.dat,-1,10,8,f,543745,DoubleDelta,18.18
+LZO -9,98845,264.66,ucr,410.81,/colmajor/uint8/ucr/ScreenType.dat,-1,10,8,f,543745,DoubleDelta,18.18
+LZ4,100547,259.47,ucr,562.62,/colmajor/uint8/ucr/ScreenType.dat,-1,10,8,f,543745,DoubleDelta,18.49
+Zlib -1,72126,110.81,ucr,246.26,/colmajor/uint8/ucr/ScreenType.dat,-1,10,8,f,543745,DoubleDelta,13.26
+Zlib -9,54428,10.52,ucr,324.15,/colmajor/uint8/ucr/ScreenType.dat,-1,10,8,f,543745,DoubleDelta,10.01
+Huffman,159648,291.89,ucr,369.96,/colmajor/uint8/ucr/ScreenType.dat,-1,10,8,f,543745,DoubleDelta,29.36
+Zstd -1,633764,166.97,ucr,373.43,/colmajor/uint8/ucr/MALLAT.dat,-1,10,8,f,2469595,DoubleDelta,25.66
+Zstd -9,555455,33.99,ucr,390.46,/colmajor/uint8/ucr/MALLAT.dat,-1,10,8,f,2469595,DoubleDelta,22.49
+Snappy,1090309,212.43,ucr,456.21,/colmajor/uint8/ucr/MALLAT.dat,-1,10,8,f,2469595,DoubleDelta,44.15
+LZO -1,1123400,225.58,ucr,342.98,/colmajor/uint8/ucr/MALLAT.dat,-1,10,8,f,2469595,DoubleDelta,45.49
+LZO -9,1123400,263.74,ucr,343.06,/colmajor/uint8/ucr/MALLAT.dat,-1,10,8,f,2469595,DoubleDelta,45.49
+LZ4,1236790,259.47,ucr,595.21,/colmajor/uint8/ucr/MALLAT.dat,-1,10,8,f,2469595,DoubleDelta,50.08
+Zlib -1,782579,68.09,ucr,207.91,/colmajor/uint8/ucr/MALLAT.dat,-1,10,8,f,2469595,DoubleDelta,31.69
+Zlib -9,553825,0.69,ucr,277.52,/colmajor/uint8/ucr/MALLAT.dat,-1,10,8,f,2469595,DoubleDelta,22.43
+Huffman,687185,394.52,ucr,512.53,/colmajor/uint8/ucr/MALLAT.dat,-1,10,8,f,2469595,DoubleDelta,27.83
+Zstd -1,28912,158.09,ucr,277.28,/colmajor/uint8/ucr/Lighting2.dat,-1,10,8,f,77677,DoubleDelta,37.22
+Zstd -9,28744,14.49,ucr,260.18,/colmajor/uint8/ucr/Lighting2.dat,-1,10,8,f,77677,DoubleDelta,37.0
+Snappy,43801,119.7,ucr,253.57,/colmajor/uint8/ucr/Lighting2.dat,-1,10,8,f,77677,DoubleDelta,56.39
+LZO -1,44081,146.21,ucr,182.77,/colmajor/uint8/ucr/Lighting2.dat,-1,10,8,f,77677,DoubleDelta,56.75
+LZO -9,44081,146.7,ucr,182.66,/colmajor/uint8/ucr/Lighting2.dat,-1,10,8,f,77677,DoubleDelta,56.75
+LZ4,46238,152.64,ucr,363.01,/colmajor/uint8/ucr/Lighting2.dat,-1,10,8,f,77677,DoubleDelta,59.53
+Zlib -1,33414,35.36,ucr,93.32,/colmajor/uint8/ucr/Lighting2.dat,-1,10,8,f,77677,DoubleDelta,43.02
+Zlib -9,29451,3.78,ucr,182.49,/colmajor/uint8/ucr/Lighting2.dat,-1,10,8,f,77677,DoubleDelta,37.91
+Huffman,33408,220.73,ucr,340.47,/colmajor/uint8/ucr/Lighting2.dat,-1,10,8,f,77677,DoubleDelta,43.01
+Zstd -1,78361,65.25,ucr,191.65,/colmajor/uint8/ucr/SwedishLeaf.dat,-1,10,8,f,149620,DoubleDelta,52.37
+Zstd -9,81750,13.26,ucr,218.99,/colmajor/uint8/ucr/SwedishLeaf.dat,-1,10,8,f,149620,DoubleDelta,54.64
+Snappy,126940,136.74,ucr,350.84,/colmajor/uint8/ucr/SwedishLeaf.dat,-1,10,8,f,149620,DoubleDelta,84.84
+LZO -1,124421,142.7,ucr,259.22,/colmajor/uint8/ucr/SwedishLeaf.dat,-1,10,8,f,149620,DoubleDelta,83.16
+LZO -9,124421,142.97,ucr,248.91,/colmajor/uint8/ucr/SwedishLeaf.dat,-1,10,8,f,149620,DoubleDelta,83.16
+LZ4,133387,178.89,ucr,512.23,/colmajor/uint8/ucr/SwedishLeaf.dat,-1,10,8,f,149620,DoubleDelta,89.15
+Zlib -1,89191,29.88,ucr,122.83,/colmajor/uint8/ucr/SwedishLeaf.dat,-1,10,8,f,149620,DoubleDelta,59.61
+Zlib -9,83493,7.18,ucr,144.5,/colmajor/uint8/ucr/SwedishLeaf.dat,-1,10,8,f,149620,DoubleDelta,55.8
+Huffman,78113,235.72,ucr,341.32,/colmajor/uint8/ucr/SwedishLeaf.dat,-1,10,8,f,149620,DoubleDelta,52.21
+Zstd -1,1057305,149.91,ucr,347.07,/colmajor/uint8/ucr/FordB.dat,-1,10,8,f,2245225,DoubleDelta,47.09
+Zstd -9,966906,17.45,ucr,282.18,/colmajor/uint8/ucr/FordB.dat,-1,10,8,f,2245225,DoubleDelta,43.06
+Snappy,1679202,166.76,ucr,429.09,/colmajor/uint8/ucr/FordB.dat,-1,10,8,f,2245225,DoubleDelta,74.79
+LZO -1,1611982,197.92,ucr,332.65,/colmajor/uint8/ucr/FordB.dat,-1,10,8,f,2245225,DoubleDelta,71.8
+LZO -9,1611982,140.82,ucr,347.62,/colmajor/uint8/ucr/FordB.dat,-1,10,8,f,2245225,DoubleDelta,71.8
+LZ4,1737662,223.39,ucr,656.68,/colmajor/uint8/ucr/FordB.dat,-1,10,8,f,2245225,DoubleDelta,77.39
+Zlib -1,1113292,62.05,ucr,195.3,/colmajor/uint8/ucr/FordB.dat,-1,10,8,f,2245225,DoubleDelta,49.58
+Zlib -9,999282,7.14,ucr,210.96,/colmajor/uint8/ucr/FordB.dat,-1,10,8,f,2245225,DoubleDelta,44.51
+Huffman,1074888,390.27,ucr,486.38,/colmajor/uint8/ucr/FordB.dat,-1,10,8,f,2245225,DoubleDelta,47.87
+Zstd -1,35511,334.7,ucr,529.58,/colmajor/uint8/ucr/LargeKitchenAppliances.dat,-1,10,8,f,543745,DoubleDelta,6.53
+Zstd -9,33915,109.51,ucr,601.28,/colmajor/uint8/ucr/LargeKitchenAppliances.dat,-1,10,8,f,543745,DoubleDelta,6.24
+Snappy,65288,332.15,ucr,567.94,/colmajor/uint8/ucr/LargeKitchenAppliances.dat,-1,10,8,f,543745,DoubleDelta,12.01
+LZO -1,50239,336.63,ucr,542.18,/colmajor/uint8/ucr/LargeKitchenAppliances.dat,-1,10,8,f,543745,DoubleDelta,9.24
+LZO -9,50239,221.34,ucr,372.32,/colmajor/uint8/ucr/LargeKitchenAppliances.dat,-1,10,8,f,543745,DoubleDelta,9.24
+LZ4,47934,307.0,ucr,613.83,/colmajor/uint8/ucr/LargeKitchenAppliances.dat,-1,10,8,f,543745,DoubleDelta,8.82
+Zlib -1,41579,118.18,ucr,360.83,/colmajor/uint8/ucr/LargeKitchenAppliances.dat,-1,10,8,f,543745,DoubleDelta,7.65
+Zlib -9,35163,21.31,ucr,352.96,/colmajor/uint8/ucr/LargeKitchenAppliances.dat,-1,10,8,f,543745,DoubleDelta,6.47
+Huffman,101543,288.54,ucr,376.41,/colmajor/uint8/ucr/LargeKitchenAppliances.dat,-1,10,8,f,543745,DoubleDelta,18.67
+Zstd -1,24004,92.84,ucr,233.72,/colmajor/uint8/ucr/ItalyPowerDemand.dat,-1,10,8,f,31779,DoubleDelta,75.53
+Zstd -9,23356,31.88,ucr,221.89,/colmajor/uint8/ucr/ItalyPowerDemand.dat,-1,10,8,f,31779,DoubleDelta,73.5
+Snappy,30167,220.84,ucr,467.53,/colmajor/uint8/ucr/ItalyPowerDemand.dat,-1,10,8,f,31779,DoubleDelta,94.93
+LZO -1,31196,190.8,ucr,378.11,/colmajor/uint8/ucr/ItalyPowerDemand.dat,-1,10,8,f,31779,DoubleDelta,98.17
+LZO -9,31196,119.49,ucr,261.34,/colmajor/uint8/ucr/ItalyPowerDemand.dat,-1,10,8,f,31779,DoubleDelta,98.17
+LZ4,30885,163.12,ucr,374.05,/colmajor/uint8/ucr/ItalyPowerDemand.dat,-1,10,8,f,31779,DoubleDelta,97.19
+Zlib -1,24641,19.13,ucr,74.24,/colmajor/uint8/ucr/ItalyPowerDemand.dat,-1,10,8,f,31779,DoubleDelta,77.54
+Zlib -9,23833,8.66,ucr,115.67,/colmajor/uint8/ucr/ItalyPowerDemand.dat,-1,10,8,f,31779,DoubleDelta,75.0
+Huffman,24189,252.38,ucr,265.63,/colmajor/uint8/ucr/ItalyPowerDemand.dat,-1,10,8,f,31779,DoubleDelta,76.12
+Zstd -1,9695,102.08,ucr,212.88,/colmajor/uint8/ucr/Beef.dat,-1,10,8,f,28495,DoubleDelta,34.02
+Zstd -9,9538,8.83,ucr,145.99,/colmajor/uint8/ucr/Beef.dat,-1,10,8,f,28495,DoubleDelta,33.47
+Snappy,15577,97.12,ucr,211.26,/colmajor/uint8/ucr/Beef.dat,-1,10,8,f,28495,DoubleDelta,54.67
+LZO -1,15655,124.91,ucr,154.27,/colmajor/uint8/ucr/Beef.dat,-1,10,8,f,28495,DoubleDelta,54.94
+LZO -9,15655,132.52,ucr,154.71,/colmajor/uint8/ucr/Beef.dat,-1,10,8,f,28495,DoubleDelta,54.94
+LZ4,19018,121.93,ucr,254.56,/colmajor/uint8/ucr/Beef.dat,-1,10,8,f,28495,DoubleDelta,66.74
+Zlib -1,11277,26.56,ucr,84.4,/colmajor/uint8/ucr/Beef.dat,-1,10,8,f,28495,DoubleDelta,39.58
+Zlib -9,9655,1.62,ucr,168.43,/colmajor/uint8/ucr/Beef.dat,-1,10,8,f,28495,DoubleDelta,33.88
+Huffman,9314,175.21,ucr,212.69,/colmajor/uint8/ucr/Beef.dat,-1,10,8,f,28495,DoubleDelta,32.69
+Zstd -1,5988,90.72,ucr,168.33,/colmajor/uint8/ucr/Wine.dat,-1,10,8,f,26524,DoubleDelta,22.58
+Zstd -9,5178,15.96,ucr,182.96,/colmajor/uint8/ucr/Wine.dat,-1,10,8,f,26524,DoubleDelta,19.52
+Snappy,10480,101.19,ucr,263.14,/colmajor/uint8/ucr/Wine.dat,-1,10,8,f,26524,DoubleDelta,39.51
+LZO -1,10576,153.93,ucr,167.69,/colmajor/uint8/ucr/Wine.dat,-1,10,8,f,26524,DoubleDelta,39.87
+LZO -9,10576,143.72,ucr,159.26,/colmajor/uint8/ucr/Wine.dat,-1,10,8,f,26524,DoubleDelta,39.87
+LZ4,12386,145.56,ucr,280.38,/colmajor/uint8/ucr/Wine.dat,-1,10,8,f,26524,DoubleDelta,46.7
+Zlib -1,7724,30.98,ucr,98.42,/colmajor/uint8/ucr/Wine.dat,-1,10,8,f,26524,DoubleDelta,29.12
+Zlib -9,5285,3.14,ucr,177.45,/colmajor/uint8/ucr/Wine.dat,-1,10,8,f,26524,DoubleDelta,19.93
+Huffman,9367,254.18,ucr,305.81,/colmajor/uint8/ucr/Wine.dat,-1,10,8,f,26524,DoubleDelta,35.32
+Zstd -1,33625,204.61,ucr,499.46,/colmajor/uint8/ucr/SmallKitchenAppliances.dat,-1,10,8,f,543745,DoubleDelta,6.18
+Zstd -9,29157,99.62,ucr,521.45,/colmajor/uint8/ucr/SmallKitchenAppliances.dat,-1,10,8,f,543745,DoubleDelta,5.36
+Snappy,60246,300.33,ucr,547.89,/colmajor/uint8/ucr/SmallKitchenAppliances.dat,-1,10,8,f,543745,DoubleDelta,11.08
+LZO -1,51154,317.34,ucr,500.75,/colmajor/uint8/ucr/SmallKitchenAppliances.dat,-1,10,8,f,543745,DoubleDelta,9.41
+LZO -9,51154,320.79,ucr,507.52,/colmajor/uint8/ucr/SmallKitchenAppliances.dat,-1,10,8,f,543745,DoubleDelta,9.41
+LZ4,50152,319.1,ucr,610.94,/colmajor/uint8/ucr/SmallKitchenAppliances.dat,-1,10,8,f,543745,DoubleDelta,9.22
+Zlib -1,38850,111.93,ucr,308.29,/colmajor/uint8/ucr/SmallKitchenAppliances.dat,-1,10,8,f,543745,DoubleDelta,7.14
+Zlib -9,28935,14.05,ucr,380.06,/colmajor/uint8/ucr/SmallKitchenAppliances.dat,-1,10,8,f,543745,DoubleDelta,5.32
+Huffman,103463,283.88,ucr,380.44,/colmajor/uint8/ucr/SmallKitchenAppliances.dat,-1,10,8,f,543745,DoubleDelta,19.03
+Zstd -1,195172,180.94,ucr,325.24,/colmajor/uint8/ucr/FaceAll.dat,-1,10,8,f,305995,DoubleDelta,63.78
+Zstd -9,196736,32.67,ucr,264.38,/colmajor/uint8/ucr/FaceAll.dat,-1,10,8,f,305995,DoubleDelta,64.29
+Snappy,301499,319.9,ucr,615.81,/colmajor/uint8/ucr/FaceAll.dat,-1,10,8,f,305995,DoubleDelta,98.53
+LZO -1,302391,286.69,ucr,540.03,/colmajor/uint8/ucr/FaceAll.dat,-1,10,8,f,305995,DoubleDelta,98.82
+LZO -9,302391,286.36,ucr,534.11,/colmajor/uint8/ucr/FaceAll.dat,-1,10,8,f,305995,DoubleDelta,98.82
+LZ4,299789,243.22,ucr,628.05,/colmajor/uint8/ucr/FaceAll.dat,-1,10,8,f,305995,DoubleDelta,97.97
+Zlib -1,211159,38.91,ucr,122.29,/colmajor/uint8/ucr/FaceAll.dat,-1,10,8,f,305995,DoubleDelta,69.01
+Zlib -9,203986,18.73,ucr,143.61,/colmajor/uint8/ucr/FaceAll.dat,-1,10,8,f,305995,DoubleDelta,66.66
+Huffman,195070,270.71,ucr,343.48,/colmajor/uint8/ucr/FaceAll.dat,-1,10,8,f,305995,DoubleDelta,63.75
+Zstd -1,14353,132.72,ucr,251.09,/colmajor/uint8/ucr/Meat.dat,-1,10,8,f,54355,DoubleDelta,26.41
+Zstd -9,12182,11.11,ucr,275.3,/colmajor/uint8/ucr/Meat.dat,-1,10,8,f,54355,DoubleDelta,22.41
+Snappy,23808,144.55,ucr,334.74,/colmajor/uint8/ucr/Meat.dat,-1,10,8,f,54355,DoubleDelta,43.8
+LZO -1,24711,221.76,ucr,239.44,/colmajor/uint8/ucr/Meat.dat,-1,10,8,f,54355,DoubleDelta,45.46
+LZO -9,24711,221.43,ucr,240.33,/colmajor/uint8/ucr/Meat.dat,-1,10,8,f,54355,DoubleDelta,45.46
+LZ4,31654,217.6,ucr,384.87,/colmajor/uint8/ucr/Meat.dat,-1,10,8,f,54355,DoubleDelta,58.24
+Zlib -1,17405,44.46,ucr,141.86,/colmajor/uint8/ucr/Meat.dat,-1,10,8,f,54355,DoubleDelta,32.02
+Zlib -9,11665,1.3,ucr,227.05,/colmajor/uint8/ucr/Meat.dat,-1,10,8,f,54355,DoubleDelta,21.46
+Huffman,15138,191.8,ucr,235.09,/colmajor/uint8/ucr/Meat.dat,-1,10,8,f,54355,DoubleDelta,27.85
+Zstd -1,1168218,152.84,ucr,397.56,/colmajor/uint8/ucr/FordA.dat,-1,10,8,f,2485100,DoubleDelta,47.01
+Zstd -9,1074162,18.5,ucr,283.84,/colmajor/uint8/ucr/FordA.dat,-1,10,8,f,2485100,DoubleDelta,43.22
+Snappy,1846142,150.16,ucr,436.55,/colmajor/uint8/ucr/FordA.dat,-1,10,8,f,2485100,DoubleDelta,74.29
+LZO -1,1781199,199.23,ucr,334.71,/colmajor/uint8/ucr/FordA.dat,-1,10,8,f,2485100,DoubleDelta,71.68
+LZO -9,1781199,198.32,ucr,331.63,/colmajor/uint8/ucr/FordA.dat,-1,10,8,f,2485100,DoubleDelta,71.68
+LZ4,1907352,198.77,ucr,677.52,/colmajor/uint8/ucr/FordA.dat,-1,10,8,f,2485100,DoubleDelta,76.75
+Zlib -1,1234720,58.5,ucr,194.78,/colmajor/uint8/ucr/FordA.dat,-1,10,8,f,2485100,DoubleDelta,49.68
+Zlib -9,1111924,6.89,ucr,202.31,/colmajor/uint8/ucr/FordA.dat,-1,10,8,f,2485100,DoubleDelta,44.74
+Huffman,1186577,399.94,ucr,492.1,/colmajor/uint8/ucr/FordA.dat,-1,10,8,f,2485100,DoubleDelta,47.75
+Zstd -1,184051,132.85,ucr,297.57,/colmajor/uint8/ucr/RefrigerationDevices.dat,-1,10,8,f,543745,DoubleDelta,33.85
+Zstd -9,162765,38.92,ucr,375.51,/colmajor/uint8/ucr/RefrigerationDevices.dat,-1,10,8,f,543745,DoubleDelta,29.93
+Snappy,230610,168.88,ucr,398.83,/colmajor/uint8/ucr/RefrigerationDevices.dat,-1,10,8,f,543745,DoubleDelta,42.41
+LZO -1,231039,191.29,ucr,269.88,/colmajor/uint8/ucr/RefrigerationDevices.dat,-1,10,8,f,543745,DoubleDelta,42.49
+LZO -9,231039,182.19,ucr,270.5,/colmajor/uint8/ucr/RefrigerationDevices.dat,-1,10,8,f,543745,DoubleDelta,42.49
+LZ4,239086,190.81,ucr,511.53,/colmajor/uint8/ucr/RefrigerationDevices.dat,-1,10,8,f,543745,DoubleDelta,43.97
+Zlib -1,181977,59.97,ucr,159.74,/colmajor/uint8/ucr/RefrigerationDevices.dat,-1,10,8,f,543745,DoubleDelta,33.47
+Zlib -9,158017,4.6,ucr,213.43,/colmajor/uint8/ucr/RefrigerationDevices.dat,-1,10,8,f,543745,DoubleDelta,29.06
+Huffman,270240,284.29,ucr,332.75,/colmajor/uint8/ucr/RefrigerationDevices.dat,-1,10,8,f,543745,DoubleDelta,49.7
+Zstd -1,56017,124.98,ucr,290.3,/colmajor/uint8/ucr/TwoLeadECG.dat,-1,10,8,f,101089,DoubleDelta,55.41
+Zstd -9,57673,15.4,ucr,210.92,/colmajor/uint8/ucr/TwoLeadECG.dat,-1,10,8,f,101089,DoubleDelta,57.05
+Snappy,88075,150.2,ucr,334.78,/colmajor/uint8/ucr/TwoLeadECG.dat,-1,10,8,f,101089,DoubleDelta,87.13
+LZO -1,85589,105.81,ucr,162.09,/colmajor/uint8/ucr/TwoLeadECG.dat,-1,10,8,f,101089,DoubleDelta,84.67
+LZO -9,85589,105.24,ucr,162.53,/colmajor/uint8/ucr/TwoLeadECG.dat,-1,10,8,f,101089,DoubleDelta,84.67
+LZ4,93477,145.98,ucr,335.9,/colmajor/uint8/ucr/TwoLeadECG.dat,-1,10,8,f,101089,DoubleDelta,92.47
+Zlib -1,62020,27.21,ucr,123.45,/colmajor/uint8/ucr/TwoLeadECG.dat,-1,10,8,f,101089,DoubleDelta,61.35
+Zlib -9,58843,9.31,ucr,142.39,/colmajor/uint8/ucr/TwoLeadECG.dat,-1,10,8,f,101089,DoubleDelta,58.21
+Huffman,55433,295.19,ucr,345.88,/colmajor/uint8/ucr/TwoLeadECG.dat,-1,10,8,f,101089,DoubleDelta,54.84
+Zstd -1,7620,122.49,ucr,243.24,/colmajor/uint8/ucr/OliveOil.dat,-1,10,8,f,34495,DoubleDelta,22.09
+Zstd -9,6193,22.58,ucr,278.44,/colmajor/uint8/ucr/OliveOil.dat,-1,10,8,f,34495,DoubleDelta,17.95
+Snappy,13657,173.75,ucr,346.86,/colmajor/uint8/ucr/OliveOil.dat,-1,10,8,f,34495,DoubleDelta,39.59
+LZO -1,13800,148.63,ucr,313.89,/colmajor/uint8/ucr/OliveOil.dat,-1,10,8,f,34495,DoubleDelta,40.01
+LZO -9,13800,299.52,ucr,365.34,/colmajor/uint8/ucr/OliveOil.dat,-1,10,8,f,34495,DoubleDelta,40.01
+LZ4,17312,267.65,ucr,392.53,/colmajor/uint8/ucr/OliveOil.dat,-1,10,8,f,34495,DoubleDelta,50.19
+Zlib -1,10190,46.3,ucr,150.97,/colmajor/uint8/ucr/OliveOil.dat,-1,10,8,f,34495,DoubleDelta,29.54
+Zlib -9,6005,3.1,ucr,238.88,/colmajor/uint8/ucr/OliveOil.dat,-1,10,8,f,34495,DoubleDelta,17.41
+Huffman,10239,208.09,ucr,327.11,/colmajor/uint8/ucr/OliveOil.dat,-1,10,8,f,34495,DoubleDelta,29.68
+Zstd -1,14259,166.08,ucr,240.96,/colmajor/uint8/ucr/ECG200.dat,-1,10,8,f,20195,DoubleDelta,70.61
+Zstd -9,14392,40.98,ucr,203.16,/colmajor/uint8/ucr/ECG200.dat,-1,10,8,f,20195,DoubleDelta,71.27
+Snappy,20201,449.26,ucr,577.81,/colmajor/uint8/ucr/ECG200.dat,-1,10,8,f,20195,DoubleDelta,100.03
+LZO -1,20279,470.61,ucr,576.72,/colmajor/uint8/ucr/ECG200.dat,-1,10,8,f,20195,DoubleDelta,100.42
+LZO -9,20279,481.42,ucr,576.29,/colmajor/uint8/ucr/ECG200.dat,-1,10,8,f,20195,DoubleDelta,100.42
+LZ4,19910,239.74,ucr,484.73,/colmajor/uint8/ucr/ECG200.dat,-1,10,8,f,20195,DoubleDelta,98.59
+Zlib -1,15009,30.12,ucr,103.03,/colmajor/uint8/ucr/ECG200.dat,-1,10,8,f,20195,DoubleDelta,74.32
+Zlib -9,14693,25.15,ucr,103.49,/colmajor/uint8/ucr/ECG200.dat,-1,10,8,f,20195,DoubleDelta,72.76
+Huffman,14235,229.24,ucr,247.31,/colmajor/uint8/ucr/ECG200.dat,-1,10,8,f,20195,DoubleDelta,70.49
+Zstd -1,37834,100.92,ucr,168.06,/colmajor/uint8/ucr/synthetic_control.dat,-1,10,8,f,38995,DoubleDelta,97.02
+Zstd -9,37319,26.92,ucr,332.51,/colmajor/uint8/ucr/synthetic_control.dat,-1,10,8,f,38995,DoubleDelta,95.7
+Snappy,39011,224.87,ucr,387.09,/colmajor/uint8/ucr/synthetic_control.dat,-1,10,8,f,38995,DoubleDelta,100.04
+LZO -1,38983,188.01,ucr,373.38,/colmajor/uint8/ucr/synthetic_control.dat,-1,10,8,f,38995,DoubleDelta,99.97
+LZO -9,38983,187.25,ucr,369.29,/colmajor/uint8/ucr/synthetic_control.dat,-1,10,8,f,38995,DoubleDelta,99.97
+LZ4,38670,177.71,ucr,394.68,/colmajor/uint8/ucr/synthetic_control.dat,-1,10,8,f,38995,DoubleDelta,99.17
+Zlib -1,37630,19.02,ucr,88.49,/colmajor/uint8/ucr/synthetic_control.dat,-1,10,8,f,38995,DoubleDelta,96.5
+Zlib -9,37288,14.25,ucr,90.36,/colmajor/uint8/ucr/synthetic_control.dat,-1,10,8,f,38995,DoubleDelta,95.62
+Huffman,37816,171.24,ucr,171.0,/colmajor/uint8/ucr/synthetic_control.dat,-1,10,8,f,38995,DoubleDelta,96.98
+Zstd -1,109735,96.67,ucr,275.04,/colmajor/uint8/ucr/Symbols.dat,-1,10,8,f,411055,DoubleDelta,26.7
+Zstd -9,101917,30.21,ucr,350.66,/colmajor/uint8/ucr/Symbols.dat,-1,10,8,f,411055,DoubleDelta,24.79
+Snappy,180621,150.41,ucr,351.9,/colmajor/uint8/ucr/Symbols.dat,-1,10,8,f,411055,DoubleDelta,43.94
+LZO -1,185354,122.82,ucr,252.71,/colmajor/uint8/ucr/Symbols.dat,-1,10,8,f,411055,DoubleDelta,45.09
+LZO -9,185354,190.49,ucr,249.69,/colmajor/uint8/ucr/Symbols.dat,-1,10,8,f,411055,DoubleDelta,45.09
+LZ4,208134,183.06,ucr,464.91,/colmajor/uint8/ucr/Symbols.dat,-1,10,8,f,411055,DoubleDelta,50.63
+Zlib -1,126831,54.65,ucr,152.65,/colmajor/uint8/ucr/Symbols.dat,-1,10,8,f,411055,DoubleDelta,30.85
+Zlib -9,97011,0.69,ucr,233.14,/colmajor/uint8/ucr/Symbols.dat,-1,10,8,f,411055,DoubleDelta,23.6
+Huffman,107788,287.57,ucr,382.25,/colmajor/uint8/ucr/Symbols.dat,-1,10,8,f,411055,DoubleDelta,26.22
+Zstd -1,51971,122.4,ucr,269.66,/colmajor/uint8/ucr/SonyAIBORobotSurfaceII.dat,-1,10,8,f,68595,DoubleDelta,75.76
+Zstd -9,50568,24.97,ucr,142.48,/colmajor/uint8/ucr/SonyAIBORobotSurfaceII.dat,-1,10,8,f,68595,DoubleDelta,73.72
+Snappy,64882,143.89,ucr,292.73,/colmajor/uint8/ucr/SonyAIBORobotSurfaceII.dat,-1,10,8,f,68595,DoubleDelta,94.59
+LZO -1,65671,132.17,ucr,221.13,/colmajor/uint8/ucr/SonyAIBORobotSurfaceII.dat,-1,10,8,f,68595,DoubleDelta,95.74
+LZO -9,65671,130.76,ucr,222.13,/colmajor/uint8/ucr/SonyAIBORobotSurfaceII.dat,-1,10,8,f,68595,DoubleDelta,95.74
+LZ4,66225,135.24,ucr,381.34,/colmajor/uint8/ucr/SonyAIBORobotSurfaceII.dat,-1,10,8,f,68595,DoubleDelta,96.54
+Zlib -1,52933,18.63,ucr,105.07,/colmajor/uint8/ucr/SonyAIBORobotSurfaceII.dat,-1,10,8,f,68595,DoubleDelta,77.17
+Zlib -9,51206,9.62,ucr,114.67,/colmajor/uint8/ucr/SonyAIBORobotSurfaceII.dat,-1,10,8,f,68595,DoubleDelta,74.65
+Huffman,52352,282.65,ucr,296.1,/colmajor/uint8/ucr/SonyAIBORobotSurfaceII.dat,-1,10,8,f,68595,DoubleDelta,76.32
+Zstd -1,211140,118.91,ucr,314.14,/colmajor/uint8/ucr/ShapesAll.dat,-1,10,8,f,620395,DoubleDelta,34.03
+Zstd -9,204920,25.77,ucr,318.64,/colmajor/uint8/ucr/ShapesAll.dat,-1,10,8,f,620395,DoubleDelta,33.03
+Snappy,332167,142.98,ucr,356.33,/colmajor/uint8/ucr/ShapesAll.dat,-1,10,8,f,620395,DoubleDelta,53.54
+LZO -1,335439,177.27,ucr,244.71,/colmajor/uint8/ucr/ShapesAll.dat,-1,10,8,f,620395,DoubleDelta,54.07
+LZO -9,335439,172.05,ucr,244.7,/colmajor/uint8/ucr/ShapesAll.dat,-1,10,8,f,620395,DoubleDelta,54.07
+LZ4,367467,161.24,ucr,496.24,/colmajor/uint8/ucr/ShapesAll.dat,-1,10,8,f,620395,DoubleDelta,59.23
+Zlib -1,237546,57.67,ucr,180.69,/colmajor/uint8/ucr/ShapesAll.dat,-1,10,8,f,620395,DoubleDelta,38.29
+Zlib -9,203009,1.47,ucr,204.45,/colmajor/uint8/ucr/ShapesAll.dat,-1,10,8,f,620395,DoubleDelta,32.72
+Huffman,210727,283.88,ucr,394.66,/colmajor/uint8/ucr/ShapesAll.dat,-1,10,8,f,620395,DoubleDelta,33.97
+Zstd -1,348841,111.54,ucr,398.43,/colmajor/uint8/ucr/InlineSkate.dat,-1,10,8,f,1226545,DoubleDelta,28.44
+Zstd -9,318679,31.94,ucr,360.82,/colmajor/uint8/ucr/InlineSkate.dat,-1,10,8,f,1226545,DoubleDelta,25.98
+Snappy,555180,167.34,ucr,381.87,/colmajor/uint8/ucr/InlineSkate.dat,-1,10,8,f,1226545,DoubleDelta,45.26
+LZO -1,577410,201.69,ucr,271.24,/colmajor/uint8/ucr/InlineSkate.dat,-1,10,8,f,1226545,DoubleDelta,47.08
+LZO -9,577410,202.25,ucr,271.31,/colmajor/uint8/ucr/InlineSkate.dat,-1,10,8,f,1226545,DoubleDelta,47.08
+LZ4,640722,196.32,ucr,542.64,/colmajor/uint8/ucr/InlineSkate.dat,-1,10,8,f,1226545,DoubleDelta,52.24
+Zlib -1,404047,64.31,ucr,201.18,/colmajor/uint8/ucr/InlineSkate.dat,-1,10,8,f,1226545,DoubleDelta,32.94
+Zlib -9,319782,1.17,ucr,241.91,/colmajor/uint8/ucr/InlineSkate.dat,-1,10,8,f,1226545,DoubleDelta,26.07
+Huffman,361142,367.83,ucr,395.38,/colmajor/uint8/ucr/InlineSkate.dat,-1,10,8,f,1226545,DoubleDelta,29.44
+Zstd -1,483873,129.32,ucr,279.67,/colmajor/uint8/ucr/Two_Patterns.dat,-1,10,8,f,664995,DoubleDelta,72.76
+Zstd -9,472413,34.3,ucr,317.8,/colmajor/uint8/ucr/Two_Patterns.dat,-1,10,8,f,664995,DoubleDelta,71.04
+Snappy,523736,138.77,ucr,479.47,/colmajor/uint8/ucr/Two_Patterns.dat,-1,10,8,f,664995,DoubleDelta,78.76
+LZO -1,530782,173.36,ucr,365.44,/colmajor/uint8/ucr/Two_Patterns.dat,-1,10,8,f,664995,DoubleDelta,79.82
+LZO -9,530782,195.75,ucr,361.96,/colmajor/uint8/ucr/Two_Patterns.dat,-1,10,8,f,664995,DoubleDelta,79.82
+LZ4,534104,195.45,ucr,547.94,/colmajor/uint8/ucr/Two_Patterns.dat,-1,10,8,f,664995,DoubleDelta,80.32
+Zlib -1,490606,43.5,ucr,176.58,/colmajor/uint8/ucr/Two_Patterns.dat,-1,10,8,f,664995,DoubleDelta,73.78
+Zlib -9,465758,3.66,ucr,194.55,/colmajor/uint8/ucr/Two_Patterns.dat,-1,10,8,f,664995,DoubleDelta,70.04
+Huffman,514345,277.09,ucr,298.67,/colmajor/uint8/ucr/Two_Patterns.dat,-1,10,8,f,664995,DoubleDelta,77.35
+Zstd -1,399210,129.51,ucr,304.38,/colmajor/uint8/ucr/ChlorineConcentration.dat,-1,10,8,f,736492,DoubleDelta,54.2
+Zstd -9,298086,28.78,ucr,301.22,/colmajor/uint8/ucr/ChlorineConcentration.dat,-1,10,8,f,736492,DoubleDelta,40.47
+Snappy,654601,173.91,ucr,440.09,/colmajor/uint8/ucr/ChlorineConcentration.dat,-1,10,8,f,736492,DoubleDelta,88.88
+LZO -1,658864,180.65,ucr,313.53,/colmajor/uint8/ucr/ChlorineConcentration.dat,-1,10,8,f,736492,DoubleDelta,89.46
+LZO -9,658864,181.12,ucr,310.98,/colmajor/uint8/ucr/ChlorineConcentration.dat,-1,10,8,f,736492,DoubleDelta,89.46
+LZ4,675856,206.33,ucr,597.21,/colmajor/uint8/ucr/ChlorineConcentration.dat,-1,10,8,f,736492,DoubleDelta,91.77
+Zlib -1,452063,49.66,ucr,161.74,/colmajor/uint8/ucr/ChlorineConcentration.dat,-1,10,8,f,736492,DoubleDelta,61.38
+Zlib -9,420230,19.98,ucr,158.73,/colmajor/uint8/ucr/ChlorineConcentration.dat,-1,10,8,f,736492,DoubleDelta,57.06
+Huffman,467071,346.98,ucr,357.93,/colmajor/uint8/ucr/ChlorineConcentration.dat,-1,10,8,f,736492,DoubleDelta,63.42
+Zstd -1,21806,113.81,ucr,260.66,/colmajor/uint8/ucr/Lighting7.dat,-1,10,8,f,46327,DoubleDelta,47.07
+Zstd -9,21449,23.46,ucr,234.91,/colmajor/uint8/ucr/Lighting7.dat,-1,10,8,f,46327,DoubleDelta,46.3
+Snappy,30902,192.58,ucr,375.11,/colmajor/uint8/ucr/Lighting7.dat,-1,10,8,f,46327,DoubleDelta,66.7
+LZO -1,31314,198.6,ucr,279.62,/colmajor/uint8/ucr/Lighting7.dat,-1,10,8,f,46327,DoubleDelta,67.59
+LZO -9,31314,205.13,ucr,279.68,/colmajor/uint8/ucr/Lighting7.dat,-1,10,8,f,46327,DoubleDelta,67.59
+LZ4,32417,210.88,ucr,455.49,/colmajor/uint8/ucr/Lighting7.dat,-1,10,8,f,46327,DoubleDelta,69.97
+Zlib -1,24162,40.28,ucr,126.22,/colmajor/uint8/ucr/Lighting7.dat,-1,10,8,f,46327,DoubleDelta,52.16
+Zlib -9,22155,5.93,ucr,130.02,/colmajor/uint8/ucr/Lighting7.dat,-1,10,8,f,46327,DoubleDelta,47.82
+Huffman,24218,271.57,ucr,313.69,/colmajor/uint8/ucr/Lighting7.dat,-1,10,8,f,46327,DoubleDelta,52.28
+Zstd -1,39311,151.95,ucr,321.3,/colmajor/uint8/ucr/MiddlePhalanxOutlineCorrect.dat,-1,10,8,f,75730,DoubleDelta,51.91
+Zstd -9,41369,26.97,ucr,236.43,/colmajor/uint8/ucr/MiddlePhalanxOutlineCorrect.dat,-1,10,8,f,75730,DoubleDelta,54.63
+Snappy,72323,481.24,ucr,635.39,/colmajor/uint8/ucr/MiddlePhalanxOutlineCorrect.dat,-1,10,8,f,75730,DoubleDelta,95.5
+LZO -1,67082,382.07,ucr,501.75,/colmajor/uint8/ucr/MiddlePhalanxOutlineCorrect.dat,-1,10,8,f,75730,DoubleDelta,88.58
+LZO -9,67082,379.51,ucr,502.3,/colmajor/uint8/ucr/MiddlePhalanxOutlineCorrect.dat,-1,10,8,f,75730,DoubleDelta,88.58
+LZ4,66939,291.9,ucr,601.45,/colmajor/uint8/ucr/MiddlePhalanxOutlineCorrect.dat,-1,10,8,f,75730,DoubleDelta,88.39
+Zlib -1,44443,39.82,ucr,126.67,/colmajor/uint8/ucr/MiddlePhalanxOutlineCorrect.dat,-1,10,8,f,75730,DoubleDelta,58.69
+Zlib -9,42554,12.49,ucr,119.77,/colmajor/uint8/ucr/MiddlePhalanxOutlineCorrect.dat,-1,10,8,f,75730,DoubleDelta,56.19
+Huffman,42197,290.0,ucr,370.68,/colmajor/uint8/ucr/MiddlePhalanxOutlineCorrect.dat,-1,10,8,f,75730,DoubleDelta,55.72
+Zstd -1,7671,69.65,ucr,208.12,/colmajor/uint8/ucr/BirdChicken.dat,-1,10,8,f,20675,DoubleDelta,37.1
+Zstd -9,7634,9.92,ucr,130.13,/colmajor/uint8/ucr/BirdChicken.dat,-1,10,8,f,20675,DoubleDelta,36.92
+Snappy,12351,90.28,ucr,203.87,/colmajor/uint8/ucr/BirdChicken.dat,-1,10,8,f,20675,DoubleDelta,59.74
+LZO -1,12143,110.37,ucr,148.99,/colmajor/uint8/ucr/BirdChicken.dat,-1,10,8,f,20675,DoubleDelta,58.73
+LZO -9,12143,110.46,ucr,148.39,/colmajor/uint8/ucr/BirdChicken.dat,-1,10,8,f,20675,DoubleDelta,58.73
+LZ4,14488,112.26,ucr,260.52,/colmajor/uint8/ucr/BirdChicken.dat,-1,10,8,f,20675,DoubleDelta,70.07
+Zlib -1,8574,30.86,ucr,80.76,/colmajor/uint8/ucr/BirdChicken.dat,-1,10,8,f,20675,DoubleDelta,41.47
+Zlib -9,7817,3.27,ucr,128.84,/colmajor/uint8/ucr/BirdChicken.dat,-1,10,8,f,20675,DoubleDelta,37.81
+Huffman,7611,246.16,ucr,292.18,/colmajor/uint8/ucr/BirdChicken.dat,-1,10,8,f,20675,DoubleDelta,36.81
+Zstd -1,112216,212.39,ucr,277.62,/colmajor/uint8/ucr/CBF.dat,-1,10,8,f,123685,DoubleDelta,90.73
+Zstd -9,111484,32.58,ucr,265.06,/colmajor/uint8/ucr/CBF.dat,-1,10,8,f,123685,DoubleDelta,90.14
+Snappy,123696,369.04,ucr,712.18,/colmajor/uint8/ucr/CBF.dat,-1,10,8,f,123685,DoubleDelta,100.01
+LZO -1,124174,379.61,ucr,692.33,/colmajor/uint8/ucr/CBF.dat,-1,10,8,f,123685,DoubleDelta,100.4
+LZO -9,124174,377.68,ucr,691.96,/colmajor/uint8/ucr/CBF.dat,-1,10,8,f,123685,DoubleDelta,100.4
+LZ4,123849,287.35,ucr,681.2,/colmajor/uint8/ucr/CBF.dat,-1,10,8,f,123685,DoubleDelta,100.13
+Zlib -1,112566,27.55,ucr,125.03,/colmajor/uint8/ucr/CBF.dat,-1,10,8,f,123685,DoubleDelta,91.01
+Zlib -9,111894,23.97,ucr,129.31,/colmajor/uint8/ucr/CBF.dat,-1,10,8,f,123685,DoubleDelta,90.47
+Huffman,112200,225.6,ucr,287.52,/colmajor/uint8/ucr/CBF.dat,-1,10,8,f,123685,DoubleDelta,90.71
+Zstd -1,24330,92.63,ucr,199.57,/colmajor/uint8/ucr/DistalPhalanxOutlineAgeGroup.dat,-1,10,8,f,45810,DoubleDelta,53.11
+Zstd -9,24939,22.5,ucr,158.72,/colmajor/uint8/ucr/DistalPhalanxOutlineAgeGroup.dat,-1,10,8,f,45810,DoubleDelta,54.44
+Snappy,38069,184.05,ucr,336.32,/colmajor/uint8/ucr/DistalPhalanxOutlineAgeGroup.dat,-1,10,8,f,45810,DoubleDelta,83.1
+LZO -1,37984,164.57,ucr,254.81,/colmajor/uint8/ucr/DistalPhalanxOutlineAgeGroup.dat,-1,10,8,f,45810,DoubleDelta,82.92
+LZO -9,37984,165.98,ucr,255.11,/colmajor/uint8/ucr/DistalPhalanxOutlineAgeGroup.dat,-1,10,8,f,45810,DoubleDelta,82.92
+LZ4,37607,163.89,ucr,336.48,/colmajor/uint8/ucr/DistalPhalanxOutlineAgeGroup.dat,-1,10,8,f,45810,DoubleDelta,82.09
+Zlib -1,26953,26.99,ucr,80.46,/colmajor/uint8/ucr/DistalPhalanxOutlineAgeGroup.dat,-1,10,8,f,45810,DoubleDelta,58.84
+Zlib -9,25628,8.71,ucr,122.81,/colmajor/uint8/ucr/DistalPhalanxOutlineAgeGroup.dat,-1,10,8,f,45810,DoubleDelta,55.94
+Huffman,26524,270.44,ucr,312.37,/colmajor/uint8/ucr/DistalPhalanxOutlineAgeGroup.dat,-1,10,8,f,45810,DoubleDelta,57.9
+Zstd -1,24511,107.77,ucr,294.41,/colmajor/uint8/ucr/DistalPhalanxTW.dat,-1,10,8,f,45810,DoubleDelta,53.51
+Zstd -9,25091,33.16,ucr,239.55,/colmajor/uint8/ucr/DistalPhalanxTW.dat,-1,10,8,f,45810,DoubleDelta,54.77
+Snappy,38080,228.81,ucr,439.23,/colmajor/uint8/ucr/DistalPhalanxTW.dat,-1,10,8,f,45810,DoubleDelta,83.13
+LZO -1,38142,221.35,ucr,352.67,/colmajor/uint8/ucr/DistalPhalanxTW.dat,-1,10,8,f,45810,DoubleDelta,83.26
+LZO -9,38142,223.26,ucr,351.13,/colmajor/uint8/ucr/DistalPhalanxTW.dat,-1,10,8,f,45810,DoubleDelta,83.26
+LZ4,37961,238.5,ucr,473.44,/colmajor/uint8/ucr/DistalPhalanxTW.dat,-1,10,8,f,45810,DoubleDelta,82.87
+Zlib -1,27262,37.6,ucr,118.21,/colmajor/uint8/ucr/DistalPhalanxTW.dat,-1,10,8,f,45810,DoubleDelta,59.51
+Zlib -9,25927,7.54,ucr,122.12,/colmajor/uint8/ucr/DistalPhalanxTW.dat,-1,10,8,f,45810,DoubleDelta,56.6
+Huffman,26499,274.02,ucr,320.91,/colmajor/uint8/ucr/DistalPhalanxTW.dat,-1,10,8,f,45810,DoubleDelta,57.85
+Zstd -1,462183,187.09,ucr,397.73,/colmajor/uint8/ucr/CinC_ECG_torso.dat,-1,10,8,f,2334475,DoubleDelta,19.8
+Zstd -9,422392,40.83,ucr,428.7,/colmajor/uint8/ucr/CinC_ECG_torso.dat,-1,10,8,f,2334475,DoubleDelta,18.09
+Snappy,722031,245.04,ucr,510.58,/colmajor/uint8/ucr/CinC_ECG_torso.dat,-1,10,8,f,2334475,DoubleDelta,30.93
+LZO -1,779557,297.62,ucr,374.73,/colmajor/uint8/ucr/CinC_ECG_torso.dat,-1,10,8,f,2334475,DoubleDelta,33.39
+LZO -9,779557,298.57,ucr,374.62,/colmajor/uint8/ucr/CinC_ECG_torso.dat,-1,10,8,f,2334475,DoubleDelta,33.39
+LZ4,856812,293.26,ucr,629.0,/colmajor/uint8/ucr/CinC_ECG_torso.dat,-1,10,8,f,2334475,DoubleDelta,36.7
+Zlib -1,521728,89.04,ucr,242.62,/colmajor/uint8/ucr/CinC_ECG_torso.dat,-1,10,8,f,2334475,DoubleDelta,22.35
+Zlib -9,389615,1.43,ucr,316.52,/colmajor/uint8/ucr/CinC_ECG_torso.dat,-1,10,8,f,2334475,DoubleDelta,16.69
+Huffman,456179,255.95,ucr,428.76,/colmajor/uint8/ucr/CinC_ECG_torso.dat,-1,10,8,f,2334475,DoubleDelta,19.54
+Zstd -1,343669,128.98,ucr,312.35,/colmajor/uint8/ucr/ECG5000.dat,-1,10,8,f,724995,DoubleDelta,47.4
+Zstd -9,345740,22.96,ucr,277.67,/colmajor/uint8/ucr/ECG5000.dat,-1,10,8,f,724995,DoubleDelta,47.69
+Snappy,541427,137.47,ucr,356.65,/colmajor/uint8/ucr/ECG5000.dat,-1,10,8,f,724995,DoubleDelta,74.68
+LZO -1,536305,154.32,ucr,251.16,/colmajor/uint8/ucr/ECG5000.dat,-1,10,8,f,724995,DoubleDelta,73.97
+LZO -9,536305,151.84,ucr,252.02,/colmajor/uint8/ucr/ECG5000.dat,-1,10,8,f,724995,DoubleDelta,73.97
+LZ4,576429,170.6,ucr,498.37,/colmajor/uint8/ucr/ECG5000.dat,-1,10,8,f,724995,DoubleDelta,79.51
+Zlib -1,393751,52.71,ucr,169.89,/colmajor/uint8/ucr/ECG5000.dat,-1,10,8,f,724995,DoubleDelta,54.31
+Zlib -9,356454,4.74,ucr,168.96,/colmajor/uint8/ucr/ECG5000.dat,-1,10,8,f,724995,DoubleDelta,49.17
+Huffman,344274,294.17,ucr,370.34,/colmajor/uint8/ucr/ECG5000.dat,-1,10,8,f,724995,DoubleDelta,47.49
+Zstd -1,26060,140.54,ucr,295.96,/colmajor/uint8/ucr/ProximalPhalanxOutlineAgeGroup.dat,-1,10,8,f,51420,DoubleDelta,50.68
+Zstd -9,27061,28.79,ucr,229.04,/colmajor/uint8/ucr/ProximalPhalanxOutlineAgeGroup.dat,-1,10,8,f,51420,DoubleDelta,52.63
+Snappy,46259,275.74,ucr,534.16,/colmajor/uint8/ucr/ProximalPhalanxOutlineAgeGroup.dat,-1,10,8,f,51420,DoubleDelta,89.96
+LZO -1,44873,224.09,ucr,411.16,/colmajor/uint8/ucr/ProximalPhalanxOutlineAgeGroup.dat,-1,10,8,f,51420,DoubleDelta,87.27
+LZO -9,44873,191.61,ucr,277.97,/colmajor/uint8/ucr/ProximalPhalanxOutlineAgeGroup.dat,-1,10,8,f,51420,DoubleDelta,87.27
+LZ4,41196,148.18,ucr,310.23,/colmajor/uint8/ucr/ProximalPhalanxOutlineAgeGroup.dat,-1,10,8,f,51420,DoubleDelta,80.12
+Zlib -1,29380,25.65,ucr,80.64,/colmajor/uint8/ucr/ProximalPhalanxOutlineAgeGroup.dat,-1,10,8,f,51420,DoubleDelta,57.14
+Zlib -9,27857,9.23,ucr,121.62,/colmajor/uint8/ucr/ProximalPhalanxOutlineAgeGroup.dat,-1,10,8,f,51420,DoubleDelta,54.18
+Huffman,28209,279.81,ucr,324.17,/colmajor/uint8/ucr/ProximalPhalanxOutlineAgeGroup.dat,-1,10,8,f,51420,DoubleDelta,54.86
+Zstd -1,22842,105.82,ucr,253.12,/colmajor/uint8/ucr/ArrowHead.dat,-1,10,8,f,54011,DoubleDelta,42.29
+Zstd -9,24014,13.58,ucr,202.97,/colmajor/uint8/ucr/ArrowHead.dat,-1,10,8,f,54011,DoubleDelta,44.46
+Snappy,38550,134.31,ucr,311.68,/colmajor/uint8/ucr/ArrowHead.dat,-1,10,8,f,54011,DoubleDelta,71.37
+LZO -1,37816,161.74,ucr,235.76,/colmajor/uint8/ucr/ArrowHead.dat,-1,10,8,f,54011,DoubleDelta,70.02
+LZO -9,37816,155.92,ucr,235.99,/colmajor/uint8/ucr/ArrowHead.dat,-1,10,8,f,54011,DoubleDelta,70.02
+LZ4,40967,159.96,ucr,474.53,/colmajor/uint8/ucr/ArrowHead.dat,-1,10,8,f,54011,DoubleDelta,75.85
+Zlib -1,25896,46.84,ucr,151.24,/colmajor/uint8/ucr/ArrowHead.dat,-1,10,8,f,54011,DoubleDelta,47.95
+Zlib -9,24550,5.58,ucr,200.26,/colmajor/uint8/ucr/ArrowHead.dat,-1,10,8,f,54011,DoubleDelta,45.45
+Huffman,22106,378.65,ucr,514.92,/colmajor/uint8/ucr/ArrowHead.dat,-1,10,8,f,54011,DoubleDelta,40.93
+Zstd -1,21487,118.19,ucr,242.69,/colmajor/uint8/ucr/Car.dat,-1,10,8,f,69835,DoubleDelta,30.77
+Zstd -9,20266,9.7,ucr,260.49,/colmajor/uint8/ucr/Car.dat,-1,10,8,f,69835,DoubleDelta,29.02
+Snappy,34041,161.17,ucr,326.62,/colmajor/uint8/ucr/Car.dat,-1,10,8,f,69835,DoubleDelta,48.74
+LZO -1,34562,206.47,ucr,234.3,/colmajor/uint8/ucr/Car.dat,-1,10,8,f,69835,DoubleDelta,49.49
+LZO -9,34562,208.17,ucr,234.98,/colmajor/uint8/ucr/Car.dat,-1,10,8,f,69835,DoubleDelta,49.49
+LZ4,37772,196.28,ucr,444.32,/colmajor/uint8/ucr/Car.dat,-1,10,8,f,69835,DoubleDelta,54.09
+Zlib -1,24267,45.31,ucr,143.28,/colmajor/uint8/ucr/Car.dat,-1,10,8,f,69835,DoubleDelta,34.75
+Zlib -9,19787,1.17,ucr,202.93,/colmajor/uint8/ucr/Car.dat,-1,10,8,f,69835,DoubleDelta,28.33
+Huffman,18807,196.94,ucr,245.66,/colmajor/uint8/ucr/Car.dat,-1,10,8,f,69835,DoubleDelta,26.93
+Zstd -1,1206306,146.87,ucr,368.99,/colmajor/uint8/ucr/UWaveGestureLibraryAll.dat,-1,10,8,f,4254095,DoubleDelta,28.36
+Zstd -9,1134068,32.53,ucr,354.04,/colmajor/uint8/ucr/UWaveGestureLibraryAll.dat,-1,10,8,f,4254095,DoubleDelta,26.66
+Snappy,1872798,212.17,ucr,461.65,/colmajor/uint8/ucr/UWaveGestureLibraryAll.dat,-1,10,8,f,4254095,DoubleDelta,44.02
+LZO -1,1927360,264.96,ucr,340.86,/colmajor/uint8/ucr/UWaveGestureLibraryAll.dat,-1,10,8,f,4254095,DoubleDelta,45.31
+LZO -9,1927360,262.14,ucr,342.66,/colmajor/uint8/ucr/UWaveGestureLibraryAll.dat,-1,10,8,f,4254095,DoubleDelta,45.31
+LZ4,2089196,243.73,ucr,605.52,/colmajor/uint8/ucr/UWaveGestureLibraryAll.dat,-1,10,8,f,4254095,DoubleDelta,49.11
+Zlib -1,1379538,72.76,ucr,207.13,/colmajor/uint8/ucr/UWaveGestureLibraryAll.dat,-1,10,8,f,4254095,DoubleDelta,32.43
+Zlib -9,1105595,0.95,ucr,241.51,/colmajor/uint8/ucr/UWaveGestureLibraryAll.dat,-1,10,8,f,4254095,DoubleDelta,25.99
+Huffman,1148091,413.6,ucr,533.66,/colmajor/uint8/ucr/UWaveGestureLibraryAll.dat,-1,10,8,f,4254095,DoubleDelta,26.99
+Zstd -1,197284,268.27,ucr,359.13,/colmajor/uint8/ucr/FacesUCR.dat,-1,10,8,f,305995,DoubleDelta,64.47
+Zstd -9,198220,30.39,ucr,263.75,/colmajor/uint8/ucr/FacesUCR.dat,-1,10,8,f,305995,DoubleDelta,64.78
+Snappy,299128,222.42,ucr,524.63,/colmajor/uint8/ucr/FacesUCR.dat,-1,10,8,f,305995,DoubleDelta,97.76
+LZO -1,298526,137.38,ucr,275.14,/colmajor/uint8/ucr/FacesUCR.dat,-1,10,8,f,305995,DoubleDelta,97.56
+LZO -9,298526,137.89,ucr,278.04,/colmajor/uint8/ucr/FacesUCR.dat,-1,10,8,f,305995,DoubleDelta,97.56
+LZ4,301934,159.12,ucr,420.68,/colmajor/uint8/ucr/FacesUCR.dat,-1,10,8,f,305995,DoubleDelta,98.67
+Zlib -1,213911,32.29,ucr,121.44,/colmajor/uint8/ucr/FacesUCR.dat,-1,10,8,f,305995,DoubleDelta,69.91
+Zlib -9,206284,19.17,ucr,141.63,/colmajor/uint8/ucr/FacesUCR.dat,-1,10,8,f,305995,DoubleDelta,67.41
+Huffman,197263,272.6,ucr,344.45,/colmajor/uint8/ucr/FacesUCR.dat,-1,10,8,f,305995,DoubleDelta,64.47
+Zstd -1,591515,212.76,ucr,406.71,/colmajor/uint8/ucr/HandOutlines.dat,-1,10,8,f,3718175,DoubleDelta,15.91
+Zstd -9,473526,48.88,ucr,455.72,/colmajor/uint8/ucr/HandOutlines.dat,-1,10,8,f,3718175,DoubleDelta,12.74
+Snappy,1089751,201.57,ucr,451.23,/colmajor/uint8/ucr/HandOutlines.dat,-1,10,8,f,3718175,DoubleDelta,29.31
+LZO -1,1167660,314.9,ucr,389.2,/colmajor/uint8/ucr/HandOutlines.dat,-1,10,8,f,3718175,DoubleDelta,31.4
+LZO -9,1167660,318.74,ucr,392.13,/colmajor/uint8/ucr/HandOutlines.dat,-1,10,8,f,3718175,DoubleDelta,31.4
+LZ4,1408952,318.65,ucr,622.11,/colmajor/uint8/ucr/HandOutlines.dat,-1,10,8,f,3718175,DoubleDelta,37.89
+Zlib -1,671861,90.59,ucr,256.37,/colmajor/uint8/ucr/HandOutlines.dat,-1,10,8,f,3718175,DoubleDelta,18.07
+Zlib -9,397652,0.71,ucr,392.5,/colmajor/uint8/ucr/HandOutlines.dat,-1,10,8,f,3718175,DoubleDelta,10.69
+Huffman,913522,414.93,ucr,529.15,/colmajor/uint8/ucr/HandOutlines.dat,-1,10,8,f,3718175,DoubleDelta,24.57
+Zstd -1,8739,110.89,ucr,246.17,/colmajor/uint8/ucr/BeetleFly.dat,-1,10,8,f,20675,DoubleDelta,42.27
+Zstd -9,9168,17.7,ucr,181.72,/colmajor/uint8/ucr/BeetleFly.dat,-1,10,8,f,20675,DoubleDelta,44.34
+Snappy,14998,57.06,ucr,196.58,/colmajor/uint8/ucr/BeetleFly.dat,-1,10,8,f,20675,DoubleDelta,72.54
+LZO -1,14626,97.77,ucr,143.59,/colmajor/uint8/ucr/BeetleFly.dat,-1,10,8,f,20675,DoubleDelta,70.74
+LZO -9,14626,100.48,ucr,143.15,/colmajor/uint8/ucr/BeetleFly.dat,-1,10,8,f,20675,DoubleDelta,70.74
+LZ4,16055,100.88,ucr,267.49,/colmajor/uint8/ucr/BeetleFly.dat,-1,10,8,f,20675,DoubleDelta,77.65
+Zlib -1,10089,26.83,ucr,77.32,/colmajor/uint8/ucr/BeetleFly.dat,-1,10,8,f,20675,DoubleDelta,48.8
+Zlib -9,9476,5.2,ucr,116.01,/colmajor/uint8/ucr/BeetleFly.dat,-1,10,8,f,20675,DoubleDelta,45.83
+Huffman,8416,244.97,ucr,285.27,/colmajor/uint8/ucr/BeetleFly.dat,-1,10,8,f,20675,DoubleDelta,40.71
+Zstd -1,26165,105.16,ucr,256.3,/colmajor/uint8/ucr/FaceFour.dat,-1,10,8,f,39755,DoubleDelta,65.82
+Zstd -9,24027,24.89,ucr,198.55,/colmajor/uint8/ucr/FaceFour.dat,-1,10,8,f,39755,DoubleDelta,60.44
+Snappy,34448,162.61,ucr,346.19,/colmajor/uint8/ucr/FaceFour.dat,-1,10,8,f,39755,DoubleDelta,86.65
+LZO -1,33872,166.39,ucr,258.55,/colmajor/uint8/ucr/FaceFour.dat,-1,10,8,f,39755,DoubleDelta,85.2
+LZO -9,33872,170.8,ucr,259.26,/colmajor/uint8/ucr/FaceFour.dat,-1,10,8,f,39755,DoubleDelta,85.2
+LZ4,34425,183.83,ucr,439.46,/colmajor/uint8/ucr/FaceFour.dat,-1,10,8,f,39755,DoubleDelta,86.59
+Zlib -1,24885,33.83,ucr,113.57,/colmajor/uint8/ucr/FaceFour.dat,-1,10,8,f,39755,DoubleDelta,62.6
+Zlib -9,24321,14.32,ucr,111.05,/colmajor/uint8/ucr/FaceFour.dat,-1,10,8,f,39755,DoubleDelta,61.18
+Huffman,26774,138.92,ucr,200.23,/colmajor/uint8/ucr/FaceFour.dat,-1,10,8,f,39755,DoubleDelta,67.35
+Zstd -1,46986,118.36,ucr,248.67,/colmajor/uint8/ucr/Computers.dat,-1,10,8,f,362495,DoubleDelta,12.96
+Zstd -9,40226,51.86,ucr,407.18,/colmajor/uint8/ucr/Computers.dat,-1,10,8,f,362495,DoubleDelta,11.1
+Snappy,76122,150.94,ucr,303.68,/colmajor/uint8/ucr/Computers.dat,-1,10,8,f,362495,DoubleDelta,21.0
+LZO -1,72900,168.44,ucr,240.8,/colmajor/uint8/ucr/Computers.dat,-1,10,8,f,362495,DoubleDelta,20.11
+LZO -9,72900,170.71,ucr,367.1,/colmajor/uint8/ucr/Computers.dat,-1,10,8,f,362495,DoubleDelta,20.11
+LZ4,75382,251.16,ucr,528.71,/colmajor/uint8/ucr/Computers.dat,-1,10,8,f,362495,DoubleDelta,20.8
+Zlib -1,52208,102.13,ucr,233.01,/colmajor/uint8/ucr/Computers.dat,-1,10,8,f,362495,DoubleDelta,14.4
+Zlib -9,39251,9.74,ucr,311.62,/colmajor/uint8/ucr/Computers.dat,-1,10,8,f,362495,DoubleDelta,10.83
+Huffman,127507,282.73,ucr,361.42,/colmajor/uint8/ucr/Computers.dat,-1,10,8,f,362495,DoubleDelta,35.17
+Zstd -1,27419,112.33,ucr,265.4,/colmajor/uint8/ucr/Trace.dat,-1,10,8,f,55995,DoubleDelta,48.97
+Zstd -9,27708,12.01,ucr,197.07,/colmajor/uint8/ucr/Trace.dat,-1,10,8,f,55995,DoubleDelta,49.48
+Snappy,44642,127.64,ucr,304.04,/colmajor/uint8/ucr/Trace.dat,-1,10,8,f,55995,DoubleDelta,79.72
+LZO -1,43099,152.21,ucr,232.91,/colmajor/uint8/ucr/Trace.dat,-1,10,8,f,55995,DoubleDelta,76.97
+LZO -9,43099,98.94,ucr,155.31,/colmajor/uint8/ucr/Trace.dat,-1,10,8,f,55995,DoubleDelta,76.97
+LZ4,44541,101.86,ucr,299.36,/colmajor/uint8/ucr/Trace.dat,-1,10,8,f,55995,DoubleDelta,79.54
+Zlib -1,29739,27.07,ucr,83.42,/colmajor/uint8/ucr/Trace.dat,-1,10,8,f,55995,DoubleDelta,53.11
+Zlib -9,28343,7.59,ucr,127.99,/colmajor/uint8/ucr/Trace.dat,-1,10,8,f,55995,DoubleDelta,50.62
+Huffman,27359,282.62,ucr,343.54,/colmajor/uint8/ucr/Trace.dat,-1,10,8,f,55995,DoubleDelta,48.86
+Zstd -1,47939,61.72,ucr,167.59,/colmajor/uint8/ucr/MedicalImages.dat,-1,10,8,f,118659,DoubleDelta,40.4
+Zstd -9,46442,11.44,ucr,253.02,/colmajor/uint8/ucr/MedicalImages.dat,-1,10,8,f,118659,DoubleDelta,39.14
+Snappy,71241,136.27,ucr,335.18,/colmajor/uint8/ucr/MedicalImages.dat,-1,10,8,f,118659,DoubleDelta,60.04
+LZO -1,71195,158.96,ucr,242.95,/colmajor/uint8/ucr/MedicalImages.dat,-1,10,8,f,118659,DoubleDelta,60.0
+LZO -9,71195,159.36,ucr,244.1,/colmajor/uint8/ucr/MedicalImages.dat,-1,10,8,f,118659,DoubleDelta,60.0
+LZ4,76586,164.06,ucr,471.06,/colmajor/uint8/ucr/MedicalImages.dat,-1,10,8,f,118659,DoubleDelta,64.54
+Zlib -1,54324,42.29,ucr,133.42,/colmajor/uint8/ucr/MedicalImages.dat,-1,10,8,f,118659,DoubleDelta,45.78
+Zlib -9,46359,1.51,ucr,176.73,/colmajor/uint8/ucr/MedicalImages.dat,-1,10,8,f,118659,DoubleDelta,39.07
+Huffman,48876,226.18,ucr,349.01,/colmajor/uint8/ucr/MedicalImages.dat,-1,10,8,f,118659,DoubleDelta,41.19
+Zstd -1,111197,127.02,ucr,322.46,/colmajor/uint8/ucr/PhalangesOutlinesCorrect.dat,-1,10,8,f,225925,DoubleDelta,49.22
+Zstd -9,117214,19.56,ucr,283.28,/colmajor/uint8/ucr/PhalangesOutlinesCorrect.dat,-1,10,8,f,225925,DoubleDelta,51.88
+Snappy,187171,121.8,ucr,298.74,/colmajor/uint8/ucr/PhalangesOutlinesCorrect.dat,-1,10,8,f,225925,DoubleDelta,82.85
+LZO -1,183711,119.35,ucr,211.3,/colmajor/uint8/ucr/PhalangesOutlinesCorrect.dat,-1,10,8,f,225925,DoubleDelta,81.32
+LZO -9,183711,119.54,ucr,211.06,/colmajor/uint8/ucr/PhalangesOutlinesCorrect.dat,-1,10,8,f,225925,DoubleDelta,81.32
+LZ4,189745,140.11,ucr,377.94,/colmajor/uint8/ucr/PhalangesOutlinesCorrect.dat,-1,10,8,f,225925,DoubleDelta,83.99
+Zlib -1,125271,36.22,ucr,136.4,/colmajor/uint8/ucr/PhalangesOutlinesCorrect.dat,-1,10,8,f,225925,DoubleDelta,55.45
+Zlib -9,118934,9.68,ucr,149.7,/colmajor/uint8/ucr/PhalangesOutlinesCorrect.dat,-1,10,8,f,225925,DoubleDelta,52.64
+Huffman,120102,261.54,ucr,358.33,/colmajor/uint8/ucr/PhalangesOutlinesCorrect.dat,-1,10,8,f,225925,DoubleDelta,53.16
+Zstd -1,46204,90.7,ucr,245.36,/colmajor/uint8/ucr/Adiac.dat,-1,10,8,f,141356,DoubleDelta,32.69
+Zstd -9,43889,12.3,ucr,323.95,/colmajor/uint8/ucr/Adiac.dat,-1,10,8,f,141356,DoubleDelta,31.05
+Snappy,73023,138.03,ucr,339.71,/colmajor/uint8/ucr/Adiac.dat,-1,10,8,f,141356,DoubleDelta,51.66
+LZO -1,73184,172.43,ucr,238.89,/colmajor/uint8/ucr/Adiac.dat,-1,10,8,f,141356,DoubleDelta,51.77
+LZO -9,73184,172.67,ucr,239.47,/colmajor/uint8/ucr/Adiac.dat,-1,10,8,f,141356,DoubleDelta,51.77
+LZ4,80731,148.74,ucr,453.21,/colmajor/uint8/ucr/Adiac.dat,-1,10,8,f,141356,DoubleDelta,57.11
+Zlib -1,52322,46.42,ucr,140.45,/colmajor/uint8/ucr/Adiac.dat,-1,10,8,f,141356,DoubleDelta,37.01
+Zlib -9,42535,0.98,ucr,163.12,/colmajor/uint8/ucr/Adiac.dat,-1,10,8,f,141356,DoubleDelta,30.09
+Huffman,42931,234.23,ucr,363.41,/colmajor/uint8/ucr/Adiac.dat,-1,10,8,f,141356,DoubleDelta,30.37
+Zstd -1,202644,124.19,ucr,285.21,/colmajor/uint8/ucr/InsectWingbeatSound.dat,-1,10,8,f,574195,DoubleDelta,35.29
+Zstd -9,201259,27.32,ucr,265.17,/colmajor/uint8/ucr/InsectWingbeatSound.dat,-1,10,8,f,574195,DoubleDelta,35.05
+Snappy,316487,150.19,ucr,360.95,/colmajor/uint8/ucr/InsectWingbeatSound.dat,-1,10,8,f,574195,DoubleDelta,55.12
+LZO -1,320971,174.05,ucr,258.41,/colmajor/uint8/ucr/InsectWingbeatSound.dat,-1,10,8,f,574195,DoubleDelta,55.9
+LZO -9,320971,174.56,ucr,290.66,/colmajor/uint8/ucr/InsectWingbeatSound.dat,-1,10,8,f,574195,DoubleDelta,55.9
+LZ4,343575,174.16,ucr,492.49,/colmajor/uint8/ucr/InsectWingbeatSound.dat,-1,10,8,f,574195,DoubleDelta,59.84
+Zlib -1,238495,56.98,ucr,179.12,/colmajor/uint8/ucr/InsectWingbeatSound.dat,-1,10,8,f,574195,DoubleDelta,41.54
+Zlib -9,201326,1.49,ucr,195.62,/colmajor/uint8/ucr/InsectWingbeatSound.dat,-1,10,8,f,574195,DoubleDelta,35.06
+Huffman,201717,289.05,ucr,377.75,/colmajor/uint8/ucr/InsectWingbeatSound.dat,-1,10,8,f,574195,DoubleDelta,35.13
+Zstd -1,103820,112.94,ucr,260.21,/colmajor/uint8/ucr/Earthquakes.dat,-1,10,8,f,238332,DoubleDelta,43.56
+Zstd -9,93016,18.86,ucr,290.28,/colmajor/uint8/ucr/Earthquakes.dat,-1,10,8,f,238332,DoubleDelta,39.03
+Snappy,122812,151.94,ucr,350.68,/colmajor/uint8/ucr/Earthquakes.dat,-1,10,8,f,238332,DoubleDelta,51.53
+LZO -1,126633,107.78,ucr,158.09,/colmajor/uint8/ucr/Earthquakes.dat,-1,10,8,f,238332,DoubleDelta,53.13
+LZO -9,126633,109.94,ucr,241.37,/colmajor/uint8/ucr/Earthquakes.dat,-1,10,8,f,238332,DoubleDelta,53.13
+LZ4,128692,172.37,ucr,472.54,/colmajor/uint8/ucr/Earthquakes.dat,-1,10,8,f,238332,DoubleDelta,54.0
+Zlib -1,104075,50.28,ucr,138.09,/colmajor/uint8/ucr/Earthquakes.dat,-1,10,8,f,238332,DoubleDelta,43.67
+Zlib -9,93739,3.34,ucr,184.35,/colmajor/uint8/ucr/Earthquakes.dat,-1,10,8,f,238332,DoubleDelta,39.33
+Huffman,122706,262.29,ucr,328.32,/colmajor/uint8/ucr/Earthquakes.dat,-1,10,8,f,238332,DoubleDelta,51.49
+Zstd -1,355870,152.62,ucr,299.81,/colmajor/uint8/ucr/uWaveGestureLibrary_Y.dat,-1,10,8,f,1432955,DoubleDelta,24.83
+Zstd -9,329048,34.46,ucr,375.6,/colmajor/uint8/ucr/uWaveGestureLibrary_Y.dat,-1,10,8,f,1432955,DoubleDelta,22.96
+Snappy,557496,214.32,ucr,456.76,/colmajor/uint8/ucr/uWaveGestureLibrary_Y.dat,-1,10,8,f,1432955,DoubleDelta,38.91
+LZO -1,584477,214.69,ucr,281.82,/colmajor/uint8/ucr/uWaveGestureLibrary_Y.dat,-1,10,8,f,1432955,DoubleDelta,40.79
+LZO -9,584477,222.21,ucr,281.89,/colmajor/uint8/ucr/uWaveGestureLibrary_Y.dat,-1,10,8,f,1432955,DoubleDelta,40.79
+LZ4,642253,217.74,ucr,488.06,/colmajor/uint8/ucr/uWaveGestureLibrary_Y.dat,-1,10,8,f,1432955,DoubleDelta,44.82
+Zlib -1,401162,71.64,ucr,215.13,/colmajor/uint8/ucr/uWaveGestureLibrary_Y.dat,-1,10,8,f,1432955,DoubleDelta,28.0
+Zlib -9,314155,0.86,ucr,259.91,/colmajor/uint8/ucr/uWaveGestureLibrary_Y.dat,-1,10,8,f,1432955,DoubleDelta,21.92
+Huffman,313001,373.59,ucr,401.81,/colmajor/uint8/ucr/uWaveGestureLibrary_Y.dat,-1,10,8,f,1432955,DoubleDelta,21.84
+Zstd -1,796397,178.21,ucr,373.41,/colmajor/uint8/ucr/NonInvasiveFatalECG_Thorax1.dat,-1,10,8,f,2842570,DoubleDelta,28.02
+Zstd -9,759553,31.34,ucr,377.45,/colmajor/uint8/ucr/NonInvasiveFatalECG_Thorax1.dat,-1,10,8,f,2842570,DoubleDelta,26.72
+Snappy,1293016,207.08,ucr,478.64,/colmajor/uint8/ucr/NonInvasiveFatalECG_Thorax1.dat,-1,10,8,f,2842570,DoubleDelta,45.49
+LZO -1,1320843,232.48,ucr,352.96,/colmajor/uint8/ucr/NonInvasiveFatalECG_Thorax1.dat,-1,10,8,f,2842570,DoubleDelta,46.47
+LZO -9,1320843,267.58,ucr,353.17,/colmajor/uint8/ucr/NonInvasiveFatalECG_Thorax1.dat,-1,10,8,f,2842570,DoubleDelta,46.47
+LZ4,1496568,256.4,ucr,631.52,/colmajor/uint8/ucr/NonInvasiveFatalECG_Thorax1.dat,-1,10,8,f,2842570,DoubleDelta,52.65
+Zlib -1,903157,70.23,ucr,209.77,/colmajor/uint8/ucr/NonInvasiveFatalECG_Thorax1.dat,-1,10,8,f,2842570,DoubleDelta,31.77
+Zlib -9,713670,0.67,ucr,259.87,/colmajor/uint8/ucr/NonInvasiveFatalECG_Thorax1.dat,-1,10,8,f,2842570,DoubleDelta,25.11
+Huffman,687014,405.83,ucr,516.31,/colmajor/uint8/ucr/NonInvasiveFatalECG_Thorax1.dat,-1,10,8,f,2842570,DoubleDelta,24.17
+Zstd -1,54940,100.19,ucr,255.1,/colmajor/uint8/ucr/ECGFiveDays.dat,-1,10,8,f,124639,DoubleDelta,44.08
+Zstd -9,53630,12.1,ucr,288.08,/colmajor/uint8/ucr/ECGFiveDays.dat,-1,10,8,f,124639,DoubleDelta,43.03
+Snappy,80534,127.42,ucr,340.02,/colmajor/uint8/ucr/ECGFiveDays.dat,-1,10,8,f,124639,DoubleDelta,64.61
+LZO -1,80549,148.88,ucr,235.88,/colmajor/uint8/ucr/ECGFiveDays.dat,-1,10,8,f,124639,DoubleDelta,64.63
+LZO -9,80549,149.54,ucr,236.76,/colmajor/uint8/ucr/ECGFiveDays.dat,-1,10,8,f,124639,DoubleDelta,64.63
+LZ4,86593,150.49,ucr,471.33,/colmajor/uint8/ucr/ECGFiveDays.dat,-1,10,8,f,124639,DoubleDelta,69.48
+Zlib -1,61915,30.67,ucr,125.75,/colmajor/uint8/ucr/ECGFiveDays.dat,-1,10,8,f,124639,DoubleDelta,49.68
+Zlib -9,54127,2.29,ucr,132.93,/colmajor/uint8/ucr/ECGFiveDays.dat,-1,10,8,f,124639,DoubleDelta,43.43
+Huffman,55268,225.67,ucr,361.06,/colmajor/uint8/ucr/ECGFiveDays.dat,-1,10,8,f,124639,DoubleDelta,44.34
+Zstd -1,356396,151.31,ucr,291.84,/colmajor/uint8/ucr/uWaveGestureLibrary_X.dat,-1,10,8,f,1432955,DoubleDelta,24.87
+Zstd -9,329768,33.68,ucr,370.45,/colmajor/uint8/ucr/uWaveGestureLibrary_X.dat,-1,10,8,f,1432955,DoubleDelta,23.01
+Snappy,565533,176.14,ucr,375.01,/colmajor/uint8/ucr/uWaveGestureLibrary_X.dat,-1,10,8,f,1432955,DoubleDelta,39.47
+LZO -1,588929,215.81,ucr,280.67,/colmajor/uint8/ucr/uWaveGestureLibrary_X.dat,-1,10,8,f,1432955,DoubleDelta,41.1
+LZO -9,588929,222.16,ucr,343.34,/colmajor/uint8/ucr/uWaveGestureLibrary_X.dat,-1,10,8,f,1432955,DoubleDelta,41.1
+LZ4,654650,255.07,ucr,573.0,/colmajor/uint8/ucr/uWaveGestureLibrary_X.dat,-1,10,8,f,1432955,DoubleDelta,45.69
+Zlib -1,402522,70.73,ucr,212.79,/colmajor/uint8/ucr/uWaveGestureLibrary_X.dat,-1,10,8,f,1432955,DoubleDelta,28.09
+Zlib -9,312852,0.78,ucr,259.39,/colmajor/uint8/ucr/uWaveGestureLibrary_X.dat,-1,10,8,f,1432955,DoubleDelta,21.83
+Huffman,317611,370.85,ucr,401.5,/colmajor/uint8/ucr/uWaveGestureLibrary_X.dat,-1,10,8,f,1432955,DoubleDelta,22.16
+Zstd -1,462196,135.81,ucr,353.79,/colmajor/uint8/ucr/yoga.dat,-1,10,8,f,1422295,DoubleDelta,32.5
+Zstd -9,452896,26.56,ucr,327.42,/colmajor/uint8/ucr/yoga.dat,-1,10,8,f,1422295,DoubleDelta,31.84
+Snappy,739375,160.32,ucr,439.07,/colmajor/uint8/ucr/yoga.dat,-1,10,8,f,1422295,DoubleDelta,51.98
+LZO -1,747535,190.93,ucr,265.52,/colmajor/uint8/ucr/yoga.dat,-1,10,8,f,1422295,DoubleDelta,52.56
+LZO -9,747535,194.93,ucr,265.58,/colmajor/uint8/ucr/yoga.dat,-1,10,8,f,1422295,DoubleDelta,52.56
+LZ4,804891,180.09,ucr,491.17,/colmajor/uint8/ucr/yoga.dat,-1,10,8,f,1422295,DoubleDelta,56.59
+Zlib -1,529955,62.47,ucr,195.71,/colmajor/uint8/ucr/yoga.dat,-1,10,8,f,1422295,DoubleDelta,37.26
+Zlib -9,437144,1.01,ucr,226.87,/colmajor/uint8/ucr/yoga.dat,-1,10,8,f,1422295,DoubleDelta,30.74
+Huffman,429074,312.03,ucr,398.74,/colmajor/uint8/ucr/yoga.dat,-1,10,8,f,1422295,DoubleDelta,30.17
+Zstd -1,76009,89.04,ucr,256.39,/colmajor/uint8/ucr/OSULeaf.dat,-1,10,8,f,190939,DoubleDelta,39.81
+Zstd -9,77466,11.52,ucr,292.74,/colmajor/uint8/ucr/OSULeaf.dat,-1,10,8,f,190939,DoubleDelta,40.57
+Snappy,124089,123.62,ucr,320.12,/colmajor/uint8/ucr/OSULeaf.dat,-1,10,8,f,190939,DoubleDelta,64.99
+LZO -1,121032,146.21,ucr,230.89,/colmajor/uint8/ucr/OSULeaf.dat,-1,10,8,f,190939,DoubleDelta,63.39
+LZO -9,121032,146.21,ucr,235.72,/colmajor/uint8/ucr/OSULeaf.dat,-1,10,8,f,190939,DoubleDelta,63.39
+LZ4,132631,151.18,ucr,482.42,/colmajor/uint8/ucr/OSULeaf.dat,-1,10,8,f,190939,DoubleDelta,69.46
+Zlib -1,86351,45.0,ucr,135.29,/colmajor/uint8/ucr/OSULeaf.dat,-1,10,8,f,190939,DoubleDelta,45.22
+Zlib -9,76653,1.79,ucr,171.89,/colmajor/uint8/ucr/OSULeaf.dat,-1,10,8,f,190939,DoubleDelta,40.15
+Huffman,68935,253.15,ucr,370.38,/colmajor/uint8/ucr/OSULeaf.dat,-1,10,8,f,190939,DoubleDelta,36.1
+Zstd -1,9836,107.02,ucr,222.51,/colmajor/uint8/ucr/Gun_Point.dat,-1,10,8,f,30995,DoubleDelta,31.73
+Zstd -9,9630,14.33,ucr,232.28,/colmajor/uint8/ucr/Gun_Point.dat,-1,10,8,f,30995,DoubleDelta,31.07
+Snappy,15524,151.12,ucr,312.1,/colmajor/uint8/ucr/Gun_Point.dat,-1,10,8,f,30995,DoubleDelta,50.09
+LZO -1,15688,188.6,ucr,225.44,/colmajor/uint8/ucr/Gun_Point.dat,-1,10,8,f,30995,DoubleDelta,50.61
+LZO -9,15688,191.9,ucr,225.88,/colmajor/uint8/ucr/Gun_Point.dat,-1,10,8,f,30995,DoubleDelta,50.61
+LZ4,18411,160.65,ucr,392.95,/colmajor/uint8/ucr/Gun_Point.dat,-1,10,8,f,30995,DoubleDelta,59.4
+Zlib -1,11396,40.99,ucr,133.0,/colmajor/uint8/ucr/Gun_Point.dat,-1,10,8,f,30995,DoubleDelta,36.77
+Zlib -9,9662,1.84,ucr,177.08,/colmajor/uint8/ucr/Gun_Point.dat,-1,10,8,f,30995,DoubleDelta,31.17
+Huffman,8980,262.26,ucr,324.49,/colmajor/uint8/ucr/Gun_Point.dat,-1,10,8,f,30995,DoubleDelta,28.97
+Zstd -1,33049,102.37,ucr,257.83,/colmajor/uint8/ucr/SonyAIBORobotSurface.dat,-1,10,8,f,46570,DoubleDelta,70.97
+Zstd -9,32316,26.67,ucr,204.16,/colmajor/uint8/ucr/SonyAIBORobotSurface.dat,-1,10,8,f,46570,DoubleDelta,69.39
+Snappy,43880,205.17,ucr,410.92,/colmajor/uint8/ucr/SonyAIBORobotSurface.dat,-1,10,8,f,46570,DoubleDelta,94.22
+LZO -1,43812,93.07,ucr,198.09,/colmajor/uint8/ucr/SonyAIBORobotSurface.dat,-1,10,8,f,46570,DoubleDelta,94.08
+LZO -9,43812,120.23,ucr,197.77,/colmajor/uint8/ucr/SonyAIBORobotSurface.dat,-1,10,8,f,46570,DoubleDelta,94.08
+LZ4,43365,140.87,ucr,309.77,/colmajor/uint8/ucr/SonyAIBORobotSurface.dat,-1,10,8,f,46570,DoubleDelta,93.12
+Zlib -1,33817,18.9,ucr,68.59,/colmajor/uint8/ucr/SonyAIBORobotSurface.dat,-1,10,8,f,46570,DoubleDelta,72.62
+Zlib -9,32711,9.65,ucr,107.74,/colmajor/uint8/ucr/SonyAIBORobotSurface.dat,-1,10,8,f,46570,DoubleDelta,70.24
+Huffman,33285,271.79,ucr,288.36,/colmajor/uint8/ucr/SonyAIBORobotSurface.dat,-1,10,8,f,46570,DoubleDelta,71.47
+Zstd -1,87546,100.14,ucr,282.21,/colmajor/uint8/ucr/WormsTwoClass.dat,-1,10,8,f,233485,DoubleDelta,37.5
+Zstd -9,86932,13.32,ucr,310.66,/colmajor/uint8/ucr/WormsTwoClass.dat,-1,10,8,f,233485,DoubleDelta,37.23
+Snappy,153554,129.7,ucr,342.86,/colmajor/uint8/ucr/WormsTwoClass.dat,-1,10,8,f,233485,DoubleDelta,65.77
+LZO -1,152542,152.09,ucr,243.37,/colmajor/uint8/ucr/WormsTwoClass.dat,-1,10,8,f,233485,DoubleDelta,65.33
+LZO -9,152542,100.05,ucr,244.03,/colmajor/uint8/ucr/WormsTwoClass.dat,-1,10,8,f,233485,DoubleDelta,65.33
+LZ4,157132,160.42,ucr,496.03,/colmajor/uint8/ucr/WormsTwoClass.dat,-1,10,8,f,233485,DoubleDelta,67.3
+Zlib -1,109444,47.21,ucr,135.29,/colmajor/uint8/ucr/WormsTwoClass.dat,-1,10,8,f,233485,DoubleDelta,46.87
+Zlib -9,99398,2.85,ucr,172.69,/colmajor/uint8/ucr/WormsTwoClass.dat,-1,10,8,f,233485,DoubleDelta,42.57
+Huffman,97542,264.46,ucr,362.22,/colmajor/uint8/ucr/WormsTwoClass.dat,-1,10,8,f,233485,DoubleDelta,41.78
+Zstd -1,31447,91.57,ucr,169.55,/colmajor/uint8/ucr/FISH.dat,-1,10,8,f,163795,DoubleDelta,19.2
+Zstd -9,24751,13.83,ucr,315.0,/colmajor/uint8/ucr/FISH.dat,-1,10,8,f,163795,DoubleDelta,15.11
+Snappy,53692,108.69,ucr,243.05,/colmajor/uint8/ucr/FISH.dat,-1,10,8,f,163795,DoubleDelta,32.78
+LZO -1,57151,139.68,ucr,172.93,/colmajor/uint8/ucr/FISH.dat,-1,10,8,f,163795,DoubleDelta,34.89
+LZO -9,57151,139.47,ucr,172.94,/colmajor/uint8/ucr/FISH.dat,-1,10,8,f,163795,DoubleDelta,34.89
+LZ4,65802,141.16,ucr,278.15,/colmajor/uint8/ucr/FISH.dat,-1,10,8,f,163795,DoubleDelta,40.17
+Zlib -1,35254,44.94,ucr,165.33,/colmajor/uint8/ucr/FISH.dat,-1,10,8,f,163795,DoubleDelta,21.52
+Zlib -9,21698,0.72,ucr,305.38,/colmajor/uint8/ucr/FISH.dat,-1,10,8,f,163795,DoubleDelta,13.25
+Huffman,39686,159.3,ucr,246.07,/colmajor/uint8/ucr/FISH.dat,-1,10,8,f,163795,DoubleDelta,24.23
+Zstd -1,379335,145.7,ucr,295.83,/colmajor/uint8/ucr/uWaveGestureLibrary_Z.dat,-1,10,8,f,1432955,DoubleDelta,26.47
+Zstd -9,358126,33.13,ucr,361.39,/colmajor/uint8/ucr/uWaveGestureLibrary_Z.dat,-1,10,8,f,1432955,DoubleDelta,24.99
+Snappy,601165,207.6,ucr,446.84,/colmajor/uint8/ucr/uWaveGestureLibrary_Z.dat,-1,10,8,f,1432955,DoubleDelta,41.95
+LZO -1,619006,210.08,ucr,277.86,/colmajor/uint8/ucr/uWaveGestureLibrary_Z.dat,-1,10,8,f,1432955,DoubleDelta,43.2
+LZO -9,619006,215.61,ucr,277.66,/colmajor/uint8/ucr/uWaveGestureLibrary_Z.dat,-1,10,8,f,1432955,DoubleDelta,43.2
+LZ4,680280,209.25,ucr,491.09,/colmajor/uint8/ucr/uWaveGestureLibrary_Z.dat,-1,10,8,f,1432955,DoubleDelta,47.47
+Zlib -1,430858,69.14,ucr,216.67,/colmajor/uint8/ucr/uWaveGestureLibrary_Z.dat,-1,10,8,f,1432955,DoubleDelta,30.07
+Zlib -9,343100,0.84,ucr,248.31,/colmajor/uint8/ucr/uWaveGestureLibrary_Z.dat,-1,10,8,f,1432955,DoubleDelta,23.94
+Huffman,334625,304.22,ucr,409.1,/colmajor/uint8/ucr/uWaveGestureLibrary_Z.dat,-1,10,8,f,1432955,DoubleDelta,23.35
+Zstd -1,745491,186.15,ucr,357.57,/colmajor/uint8/ucr/NonInvasiveFatalECG_Thorax2.dat,-1,10,8,f,2842570,DoubleDelta,26.23
+Zstd -9,701653,33.64,ucr,390.33,/colmajor/uint8/ucr/NonInvasiveFatalECG_Thorax2.dat,-1,10,8,f,2842570,DoubleDelta,24.68
+Snappy,1211921,214.75,ucr,476.59,/colmajor/uint8/ucr/NonInvasiveFatalECG_Thorax2.dat,-1,10,8,f,2842570,DoubleDelta,42.63
+LZO -1,1253018,273.36,ucr,348.38,/colmajor/uint8/ucr/NonInvasiveFatalECG_Thorax2.dat,-1,10,8,f,2842570,DoubleDelta,44.08
+LZO -9,1253018,274.47,ucr,348.74,/colmajor/uint8/ucr/NonInvasiveFatalECG_Thorax2.dat,-1,10,8,f,2842570,DoubleDelta,44.08
+LZ4,1419041,186.73,ucr,520.17,/colmajor/uint8/ucr/NonInvasiveFatalECG_Thorax2.dat,-1,10,8,f,2842570,DoubleDelta,49.92
+Zlib -1,849147,69.87,ucr,212.64,/colmajor/uint8/ucr/NonInvasiveFatalECG_Thorax2.dat,-1,10,8,f,2842570,DoubleDelta,29.87
+Zlib -9,651047,0.7,ucr,269.55,/colmajor/uint8/ucr/NonInvasiveFatalECG_Thorax2.dat,-1,10,8,f,2842570,DoubleDelta,22.9
+Huffman,657398,404.01,ucr,516.57,/colmajor/uint8/ucr/NonInvasiveFatalECG_Thorax2.dat,-1,10,8,f,2842570,DoubleDelta,23.13
+Zstd -1,36133,134.46,ucr,165.61,/colmajor/uint8/ucr/Ham.dat,-1,10,8,f,93299,DoubleDelta,38.73
+Zstd -9,35866,9.59,ucr,241.51,/colmajor/uint8/ucr/Ham.dat,-1,10,8,f,93299,DoubleDelta,38.44
+Snappy,56827,147.46,ucr,331.28,/colmajor/uint8/ucr/Ham.dat,-1,10,8,f,93299,DoubleDelta,60.91
+LZO -1,55922,186.8,ucr,242.08,/colmajor/uint8/ucr/Ham.dat,-1,10,8,f,93299,DoubleDelta,59.94
+LZO -9,55922,185.81,ucr,242.11,/colmajor/uint8/ucr/Ham.dat,-1,10,8,f,93299,DoubleDelta,59.94
+LZ4,60952,119.34,ucr,308.0,/colmajor/uint8/ucr/Ham.dat,-1,10,8,f,93299,DoubleDelta,65.33
+Zlib -1,40788,31.53,ucr,87.95,/colmajor/uint8/ucr/Ham.dat,-1,10,8,f,93299,DoubleDelta,43.72
+Zlib -9,35879,1.41,ucr,176.24,/colmajor/uint8/ucr/Ham.dat,-1,10,8,f,93299,DoubleDelta,38.46
+Huffman,33992,297.55,ucr,366.47,/colmajor/uint8/ucr/Ham.dat,-1,10,8,f,93299,DoubleDelta,36.43
+Zstd -1,1082951,164.15,ucr,398.08,/colmajor/uint8/ucr/Phoneme.dat,-1,10,8,f,2171185,DoubleDelta,49.88
+Zstd -9,1086623,23.34,ucr,308.95,/colmajor/uint8/ucr/Phoneme.dat,-1,10,8,f,2171185,DoubleDelta,50.05
+Snappy,1619834,224.56,ucr,527.6,/colmajor/uint8/ucr/Phoneme.dat,-1,10,8,f,2171185,DoubleDelta,74.61
+LZO -1,1613999,246.2,ucr,401.3,/colmajor/uint8/ucr/Phoneme.dat,-1,10,8,f,2171185,DoubleDelta,74.34
+LZO -9,1613999,250.6,ucr,399.89,/colmajor/uint8/ucr/Phoneme.dat,-1,10,8,f,2171185,DoubleDelta,74.34
+LZ4,1689711,226.73,ucr,679.18,/colmajor/uint8/ucr/Phoneme.dat,-1,10,8,f,2171185,DoubleDelta,77.82
+Zlib -1,1206312,57.0,ucr,184.19,/colmajor/uint8/ucr/Phoneme.dat,-1,10,8,f,2171185,DoubleDelta,55.56
+Zlib -9,1110181,2.75,ucr,189.08,/colmajor/uint8/ucr/Phoneme.dat,-1,10,8,f,2171185,DoubleDelta,51.13
+Huffman,1117772,390.72,ucr,454.88,/colmajor/uint8/ucr/Phoneme.dat,-1,10,8,f,2171185,DoubleDelta,51.48
+Zstd -1,24476,177.33,ucr,303.3,/colmajor/uint8/ucr/MiddlePhalanxOutlineAgeGroup.dat,-1,10,8,f,47085,DoubleDelta,51.98
+Zstd -9,25525,21.01,ucr,155.16,/colmajor/uint8/ucr/MiddlePhalanxOutlineAgeGroup.dat,-1,10,8,f,47085,DoubleDelta,54.21
+Snappy,41159,242.86,ucr,367.58,/colmajor/uint8/ucr/MiddlePhalanxOutlineAgeGroup.dat,-1,10,8,f,47085,DoubleDelta,87.41
+LZO -1,41108,238.23,ucr,316.03,/colmajor/uint8/ucr/MiddlePhalanxOutlineAgeGroup.dat,-1,10,8,f,47085,DoubleDelta,87.31
+LZO -9,41108,237.78,ucr,316.34,/colmajor/uint8/ucr/MiddlePhalanxOutlineAgeGroup.dat,-1,10,8,f,47085,DoubleDelta,87.31
+LZ4,39514,153.33,ucr,313.58,/colmajor/uint8/ucr/MiddlePhalanxOutlineAgeGroup.dat,-1,10,8,f,47085,DoubleDelta,83.92
+Zlib -1,27600,25.4,ucr,80.33,/colmajor/uint8/ucr/MiddlePhalanxOutlineAgeGroup.dat,-1,10,8,f,47085,DoubleDelta,58.62
+Zlib -9,26378,10.17,ucr,119.46,/colmajor/uint8/ucr/MiddlePhalanxOutlineAgeGroup.dat,-1,10,8,f,47085,DoubleDelta,56.02
+Huffman,26433,210.39,ucr,322.34,/colmajor/uint8/ucr/MiddlePhalanxOutlineAgeGroup.dat,-1,10,8,f,47085,DoubleDelta,56.14
+Zstd -1,123577,96.99,ucr,276.09,/colmajor/uint8/ucr/Cricket_Y.dat,-1,10,8,f,237895,DoubleDelta,51.95
+Zstd -9,125479,13.52,ucr,275.22,/colmajor/uint8/ucr/Cricket_Y.dat,-1,10,8,f,237895,DoubleDelta,52.75
+Snappy,191042,132.43,ucr,342.47,/colmajor/uint8/ucr/Cricket_Y.dat,-1,10,8,f,237895,DoubleDelta,80.31
+LZO -1,188265,143.89,ucr,250.93,/colmajor/uint8/ucr/Cricket_Y.dat,-1,10,8,f,237895,DoubleDelta,79.14
+LZO -9,188265,144.51,ucr,250.53,/colmajor/uint8/ucr/Cricket_Y.dat,-1,10,8,f,237895,DoubleDelta,79.14
+LZ4,202100,115.51,ucr,342.63,/colmajor/uint8/ucr/Cricket_Y.dat,-1,10,8,f,237895,DoubleDelta,84.95
+Zlib -1,138067,34.9,ucr,125.94,/colmajor/uint8/ucr/Cricket_Y.dat,-1,10,8,f,237895,DoubleDelta,58.04
+Zlib -9,128003,6.39,ucr,150.07,/colmajor/uint8/ucr/Cricket_Y.dat,-1,10,8,f,237895,DoubleDelta,53.81
+Huffman,124168,266.88,ucr,356.06,/colmajor/uint8/ucr/Cricket_Y.dat,-1,10,8,f,237895,DoubleDelta,52.19
+Zstd -1,21757,110.2,ucr,238.19,/colmajor/uint8/ucr/Herring.dat,-1,10,8,f,66171,DoubleDelta,32.88
+Zstd -9,21046,10.51,ucr,243.98,/colmajor/uint8/ucr/Herring.dat,-1,10,8,f,66171,DoubleDelta,31.81
+Snappy,34334,154.86,ucr,340.04,/colmajor/uint8/ucr/Herring.dat,-1,10,8,f,66171,DoubleDelta,51.89
+LZO -1,34547,201.5,ucr,247.56,/colmajor/uint8/ucr/Herring.dat,-1,10,8,f,66171,DoubleDelta,52.21
+LZO -9,34547,203.4,ucr,245.89,/colmajor/uint8/ucr/Herring.dat,-1,10,8,f,66171,DoubleDelta,52.21
+LZ4,38327,103.14,ucr,304.84,/colmajor/uint8/ucr/Herring.dat,-1,10,8,f,66171,DoubleDelta,57.92
+Zlib -1,24180,30.3,ucr,93.38,/colmajor/uint8/ucr/Herring.dat,-1,10,8,f,66171,DoubleDelta,36.54
+Zlib -9,20779,1.01,ucr,163.51,/colmajor/uint8/ucr/Herring.dat,-1,10,8,f,66171,DoubleDelta,31.4
+Huffman,18161,218.8,ucr,363.44,/colmajor/uint8/ucr/Herring.dat,-1,10,8,f,66171,DoubleDelta,27.45
+Zstd -1,24674,121.36,ucr,302.29,/colmajor/uint8/ucr/MiddlePhalanxTW.dat,-1,10,8,f,47000,DoubleDelta,52.5
+Zstd -9,25638,31.11,ucr,231.72,/colmajor/uint8/ucr/MiddlePhalanxTW.dat,-1,10,8,f,47000,DoubleDelta,54.55
+Snappy,40065,201.64,ucr,405.45,/colmajor/uint8/ucr/MiddlePhalanxTW.dat,-1,10,8,f,47000,DoubleDelta,85.24
+LZO -1,39999,109.18,ucr,212.85,/colmajor/uint8/ucr/MiddlePhalanxTW.dat,-1,10,8,f,47000,DoubleDelta,85.1
+LZO -9,39999,122.85,ucr,213.14,/colmajor/uint8/ucr/MiddlePhalanxTW.dat,-1,10,8,f,47000,DoubleDelta,85.1
+LZ4,39688,152.41,ucr,309.61,/colmajor/uint8/ucr/MiddlePhalanxTW.dat,-1,10,8,f,47000,DoubleDelta,84.44
+Zlib -1,27926,25.45,ucr,79.06,/colmajor/uint8/ucr/MiddlePhalanxTW.dat,-1,10,8,f,47000,DoubleDelta,59.42
+Zlib -9,26582,7.27,ucr,118.29,/colmajor/uint8/ucr/MiddlePhalanxTW.dat,-1,10,8,f,47000,DoubleDelta,56.56
+Huffman,26356,279.55,ucr,317.67,/colmajor/uint8/ucr/MiddlePhalanxTW.dat,-1,10,8,f,47000,DoubleDelta,56.08
+Zstd -1,124961,96.71,ucr,281.6,/colmajor/uint8/ucr/Cricket_X.dat,-1,10,8,f,237895,DoubleDelta,52.53
+Zstd -9,126057,12.24,ucr,274.36,/colmajor/uint8/ucr/Cricket_X.dat,-1,10,8,f,237895,DoubleDelta,52.99
+Snappy,190399,130.86,ucr,351.4,/colmajor/uint8/ucr/Cricket_X.dat,-1,10,8,f,237895,DoubleDelta,80.03
+LZO -1,188479,143.91,ucr,255.28,/colmajor/uint8/ucr/Cricket_X.dat,-1,10,8,f,237895,DoubleDelta,79.23
+LZO -9,188479,140.95,ucr,257.85,/colmajor/uint8/ucr/Cricket_X.dat,-1,10,8,f,237895,DoubleDelta,79.23
+LZ4,201271,173.9,ucr,527.15,/colmajor/uint8/ucr/Cricket_X.dat,-1,10,8,f,237895,DoubleDelta,84.6
+Zlib -1,139150,42.2,ucr,124.95,/colmajor/uint8/ucr/Cricket_X.dat,-1,10,8,f,237895,DoubleDelta,58.49
+Zlib -9,128679,6.71,ucr,150.95,/colmajor/uint8/ucr/Cricket_X.dat,-1,10,8,f,237895,DoubleDelta,54.09
+Huffman,126234,254.45,ucr,355.2,/colmajor/uint8/ucr/Cricket_X.dat,-1,10,8,f,237895,DoubleDelta,53.06
+Zstd -1,125137,69.81,ucr,272.59,/colmajor/uint8/ucr/Cricket_Z.dat,-1,10,8,f,237895,DoubleDelta,52.6
+Zstd -9,126098,11.48,ucr,273.14,/colmajor/uint8/ucr/Cricket_Z.dat,-1,10,8,f,237895,DoubleDelta,53.01
+Snappy,190615,134.76,ucr,345.38,/colmajor/uint8/ucr/Cricket_Z.dat,-1,10,8,f,237895,DoubleDelta,80.13
+LZO -1,188927,144.82,ucr,261.61,/colmajor/uint8/ucr/Cricket_Z.dat,-1,10,8,f,237895,DoubleDelta,79.42
+LZO -9,188927,94.63,ucr,170.03,/colmajor/uint8/ucr/Cricket_Z.dat,-1,10,8,f,237895,DoubleDelta,79.42
+LZ4,201483,115.46,ucr,349.6,/colmajor/uint8/ucr/Cricket_Z.dat,-1,10,8,f,237895,DoubleDelta,84.69
+Zlib -1,139250,35.1,ucr,125.19,/colmajor/uint8/ucr/Cricket_Z.dat,-1,10,8,f,237895,DoubleDelta,58.53
+Zlib -9,128768,6.7,ucr,177.58,/colmajor/uint8/ucr/Cricket_Z.dat,-1,10,8,f,237895,DoubleDelta,54.13
+Huffman,126430,384.96,ucr,539.38,/colmajor/uint8/ucr/Cricket_Z.dat,-1,10,8,f,237895,DoubleDelta,53.15
+Zstd -1,98721,169.12,ucr,630.35,/colmajor/uint8/ucr/ShapeletSim.dat,-1,10,8,f,100995,DoubleDelta,97.75
+Zstd -9,97818,41.1,ucr,611.81,/colmajor/uint8/ucr/ShapeletSim.dat,-1,10,8,f,100995,DoubleDelta,96.85
+Snappy,99833,534.14,ucr,670.67,/colmajor/uint8/ucr/ShapeletSim.dat,-1,10,8,f,100995,DoubleDelta,98.85
+LZO -1,101175,415.01,ucr,459.97,/colmajor/uint8/ucr/ShapeletSim.dat,-1,10,8,f,100995,DoubleDelta,100.18
+LZO -9,101175,414.18,ucr,457.42,/colmajor/uint8/ucr/ShapeletSim.dat,-1,10,8,f,100995,DoubleDelta,100.18
+LZ4,99350,273.12,ucr,446.59,/colmajor/uint8/ucr/ShapeletSim.dat,-1,10,8,f,100995,DoubleDelta,98.37
+Zlib -1,98787,22.29,ucr,157.83,/colmajor/uint8/ucr/ShapeletSim.dat,-1,10,8,f,100995,DoubleDelta,97.81
+Zlib -9,98072,26.65,ucr,161.38,/colmajor/uint8/ucr/ShapeletSim.dat,-1,10,8,f,100995,DoubleDelta,97.11
+Huffman,100305,284.66,ucr,281.06,/colmajor/uint8/ucr/ShapeletSim.dat,-1,10,8,f,100995,DoubleDelta,99.32
+Zstd -1,77840,103.3,ucr,244.64,/colmajor/uint8/ucr/50words.dat,-1,10,8,f,248870,DoubleDelta,31.28
+Zstd -9,72809,12.98,ucr,327.63,/colmajor/uint8/ucr/50words.dat,-1,10,8,f,248870,DoubleDelta,29.26
+Snappy,121243,142.42,ucr,341.58,/colmajor/uint8/ucr/50words.dat,-1,10,8,f,248870,DoubleDelta,48.72
+LZO -1,122877,181.05,ucr,249.96,/colmajor/uint8/ucr/50words.dat,-1,10,8,f,248870,DoubleDelta,49.37
+LZO -9,122877,180.87,ucr,251.59,/colmajor/uint8/ucr/50words.dat,-1,10,8,f,248870,DoubleDelta,49.37
+LZ4,136394,174.09,ucr,450.31,/colmajor/uint8/ucr/50words.dat,-1,10,8,f,248870,DoubleDelta,54.81
+Zlib -1,87261,39.04,ucr,145.33,/colmajor/uint8/ucr/50words.dat,-1,10,8,f,248870,DoubleDelta,35.06
+Zlib -9,69912,0.82,ucr,172.2,/colmajor/uint8/ucr/50words.dat,-1,10,8,f,248870,DoubleDelta,28.09
+Huffman,69640,269.45,ucr,376.11,/colmajor/uint8/ucr/50words.dat,-1,10,8,f,248870,DoubleDelta,27.98
+Zstd -1,26258,120.35,ucr,295.7,/colmajor/uint8/ucr/ProximalPhalanxTW.dat,-1,10,8,f,51420,DoubleDelta,51.07
+Zstd -9,27222,27.42,ucr,229.08,/colmajor/uint8/ucr/ProximalPhalanxTW.dat,-1,10,8,f,51420,DoubleDelta,52.94
+Snappy,42189,123.01,ucr,406.86,/colmajor/uint8/ucr/ProximalPhalanxTW.dat,-1,10,8,f,51420,DoubleDelta,82.05
+LZO -1,42003,192.72,ucr,296.39,/colmajor/uint8/ucr/ProximalPhalanxTW.dat,-1,10,8,f,51420,DoubleDelta,81.69
+LZO -9,42003,193.97,ucr,296.29,/colmajor/uint8/ucr/ProximalPhalanxTW.dat,-1,10,8,f,51420,DoubleDelta,81.69
+LZ4,41447,173.82,ucr,453.18,/colmajor/uint8/ucr/ProximalPhalanxTW.dat,-1,10,8,f,51420,DoubleDelta,80.6
+Zlib -1,29558,37.78,ucr,121.38,/colmajor/uint8/ucr/ProximalPhalanxTW.dat,-1,10,8,f,51420,DoubleDelta,57.48
+Zlib -9,28000,9.19,ucr,121.67,/colmajor/uint8/ucr/ProximalPhalanxTW.dat,-1,10,8,f,51420,DoubleDelta,54.45
+Huffman,28182,278.46,ucr,324.92,/colmajor/uint8/ucr/ProximalPhalanxTW.dat,-1,10,8,f,51420,DoubleDelta,54.81
+Zstd -1,83953,94.23,ucr,253.18,/colmajor/uint8/ucr/Strawberry.dat,-1,10,8,f,235915,DoubleDelta,35.59
+Zstd -9,79271,10.08,ucr,254.06,/colmajor/uint8/ucr/Strawberry.dat,-1,10,8,f,235915,DoubleDelta,33.6
+Snappy,135887,97.19,ucr,344.31,/colmajor/uint8/ucr/Strawberry.dat,-1,10,8,f,235915,DoubleDelta,57.6
+LZO -1,134394,161.87,ucr,240.85,/colmajor/uint8/ucr/Strawberry.dat,-1,10,8,f,235915,DoubleDelta,56.97
+LZO -9,134394,162.07,ucr,240.33,/colmajor/uint8/ucr/Strawberry.dat,-1,10,8,f,235915,DoubleDelta,56.97
+LZ4,144176,156.28,ucr,489.69,/colmajor/uint8/ucr/Strawberry.dat,-1,10,8,f,235915,DoubleDelta,61.11
+Zlib -1,97337,47.73,ucr,140.78,/colmajor/uint8/ucr/Strawberry.dat,-1,10,8,f,235915,DoubleDelta,41.26
+Zlib -9,80605,1.34,ucr,192.31,/colmajor/uint8/ucr/Strawberry.dat,-1,10,8,f,235915,DoubleDelta,34.17
+Huffman,81137,381.71,ucr,558.27,/colmajor/uint8/ucr/Strawberry.dat,-1,10,8,f,235915,DoubleDelta,34.39

@@ -1,0 +1,3 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,387831328,5453.85,pamap,5359.58,False,/colmajor/uint16-as-uint32/pamap/pamap.dat,1,5,16,f,387831328,100.0
+FastPFOR,192530968,1204.4,pamap,2854.23,False,/colmajor/uint16-as-uint32/pamap/pamap.dat,1,5,16,f,387831328,49.64

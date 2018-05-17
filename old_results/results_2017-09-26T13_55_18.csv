@@ -1,0 +1,18 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,6307220,15945.0,ampd_water,15480.23,False,/colmajor/uint8/ampd_water/ampd_water.dat,-1,5,8,f,6307220,100.0
+Zstd -1,266988,1315.18,ampd_water,1928.74,False,/colmajor/uint8/ampd_water/ampd_water.dat,-1,5,8,f,6307220,4.23
+Zstd -9,245104,205.88,ampd_water,2105.15,False,/colmajor/uint8/ampd_water/ampd_water.dat,-1,5,8,f,6307220,3.89
+LZ4,439552,1591.25,ampd_water,3151.1,False,/colmajor/uint8/ampd_water/ampd_water.dat,-1,5,8,f,6307220,6.97
+LZ4HC -1,404158,371.49,ampd_water,3367.64,False,/colmajor/uint8/ampd_water/ampd_water.dat,-1,5,8,f,6307220,6.41
+LZ4HC -9,312629,26.38,ampd_water,4124.22,False,/colmajor/uint8/ampd_water/ampd_water.dat,-1,5,8,f,6307220,4.96
+Snappy,632884,1368.05,ampd_water,1557.31,False,/colmajor/uint8/ampd_water/ampd_water.dat,-1,5,8,f,6307220,10.03
+FSE,3341045,440.64,ampd_water,531.67,False,/colmajor/uint8/ampd_water/ampd_water.dat,-1,5,8,f,6307220,52.97
+Huffman,1691375,788.56,ampd_water,1180.97,False,/colmajor/uint8/ampd_water/ampd_water.dat,-1,5,8,f,6307220,26.82
+Delta,792741,756.16,ampd_water,1544.74,False,/colmajor/uint8/ampd_water/ampd_water.dat,-1,5,8,f,6307220,12.57
+DoubleDelta,877232,721.07,ampd_water,1046.52,False,/colmajor/uint8/ampd_water/ampd_water.dat,-1,5,8,f,6307220,13.91
+DeltaRLE_HUF,383050,704.21,ampd_water,2467.17,False,/colmajor/uint8/ampd_water/ampd_water.dat,-1,5,8,f,6307220,6.07
+DeltaRLE,568124,792.39,ampd_water,4174.33,False,/colmajor/uint8/ampd_water/ampd_water.dat,-1,5,8,f,6307220,9.01
+BitShuffle8b -1,2150559,696.85,ampd_water,1064.16,False,/colmajor/uint8/ampd_water/ampd_water.dat,-1,5,8,f,6307220,34.1
+BitShuffle8b -9,752257,461.9,ampd_water,797.67,False,/colmajor/uint8/ampd_water/ampd_water.dat,-1,5,8,f,6307220,11.93
+ByteShuffle8b -1,2052698,2081.02,ampd_water,11463.13,False,/colmajor/uint8/ampd_water/ampd_water.dat,-1,5,8,f,6307220,32.55
+ByteShuffle8b -9,552707,1167.78,ampd_water,2780.18,False,/colmajor/uint8/ampd_water/ampd_water.dat,-1,5,8,f,6307220,8.76

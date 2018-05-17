@@ -1,0 +1,5 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Filename,Memlimit,MinIters,Nbits,Order,Original size,Preprocs,Ratio
+Memcpy,603847440,7518.86,uci_gas,7284.2,/colmajor/uint8-as-uint32/uci_gas/uci_gas.dat,-1,20,8,f,603847440,None,100.0
+SIMDBP128,104835476,10215.64,uci_gas,7842.13,/colmajor/uint8-as-uint32/uci_gas/uci_gas.dat,-1,20,8,f,603847440,None,17.36
+FastPFOR,104703144,2119.1,uci_gas,7885.36,/colmajor/uint8-as-uint32/uci_gas/uci_gas.dat,-1,20,8,f,603847440,None,17.34
+Simple8B,115776164,5161.07,uci_gas,7991.27,/colmajor/uint8-as-uint32/uci_gas/uci_gas.dat,-1,20,8,f,603847440,None,19.17

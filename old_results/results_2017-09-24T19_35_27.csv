@@ -1,0 +1,17 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,122640,29186.1,ampd_weather,29034.09,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,-1,5,8,f,122640,100.0
+Zstd -1,100255,203.16,ampd_weather,259.23,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,-1,5,8,f,122640,81.75
+Zstd -9,86603,28.97,ampd_weather,314.54,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,-1,5,8,f,122640,70.62
+LZ4,109098,353.75,ampd_weather,2151.01,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,-1,5,8,f,122640,88.96
+LZ4HC -1,100859,78.05,ampd_weather,1217.86,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,-1,5,8,f,122640,82.24
+LZ4HC -9,97285,25.81,ampd_weather,1305.39,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,-1,5,8,f,122640,79.33
+Snappy,107593,491.12,ampd_weather,1417.98,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,-1,5,8,f,122640,87.73
+FSE,110017,286.12,ampd_weather,365.57,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,-1,5,8,f,122640,89.71
+Huffman,110378,337.05,ampd_weather,296.88,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,-1,5,8,f,122640,90.0
+Delta,86129,240.68,ampd_weather,693.58,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,-1,5,8,f,122640,70.23
+DoubleDelta,91648,227.07,ampd_weather,441.39,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,-1,5,8,f,122640,74.73
+DeltaRLE,86386,231.28,ampd_weather,677.29,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,-1,5,8,f,122640,70.44
+BitShuffle8b -1,122688,289.63,ampd_weather,516.64,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,-1,5,8,f,122640,100.04
+BitShuffle8b -9,106991,87.36,ampd_weather,281.93,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,-1,5,8,f,122640,87.24
+ByteShuffle8b -1,122688,659.21,ampd_weather,6139.06,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,-1,5,8,f,122640,100.04
+ByteShuffle8b -9,108770,90.15,ampd_weather,400.74,False,/colmajor/uint8/ampd_weather/ampd_weather.dat,-1,5,8,f,122640,88.69

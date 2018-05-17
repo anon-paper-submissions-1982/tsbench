@@ -1,0 +1,3 @@
+Algorithm,Compressed size,Compression speed,Dataset,Decompression speed,Deltas,Filename,Memlimit,MinIters,Nbits,Order,Original size,Ratio
+Memcpy,490560,12064.93,ampd_weather,2988.81,True,/colmajor/uint16-as-uint32_deltas_zigzag/ampd_weather/ampd_weather.dat,4,5,16,f,490560,100.0
+FastPFOR,337048,715.09,ampd_weather,1249.73,True,/colmajor/uint16-as-uint32_deltas_zigzag/ampd_weather/ampd_weather.dat,4,5,16,f,490560,68.71
