@@ -144,3 +144,4 @@ If you have another compressor that you would like to add to lzbench, this can b
 
 
 See the `example_compressor` directory, and the associated `example_compress`, `example_decompress`, and other functions, for a minimal working example.
+
