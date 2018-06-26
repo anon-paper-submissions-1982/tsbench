@@ -9,15 +9,6 @@ The disadvantage is that it requires source code of each compressor (therefore S
 
 This is a fork of the [original lzbench](https://github.com/inikep/lzbench) with added functionality. In particular, it allows integrated [double-]delta coding and execution of simple queries after decompression.
 
-<!-- |Status   |
-|---------|
-| [![Build Status][travisMasterBadge]][travisLink] [![Build status][AppveyorMasterBadge]][AppveyorLink]  |
-
-[travisMasterBadge]: https://travis-ci.org/inikep/lzbench.svg?branch=master "Continuous Integration test suite"
-[travisLink]: https://travis-ci.org/inikep/lzbench
-[AppveyorMasterBadge]: https://ci.appveyor.com/api/projects/status/u7kjj8ino4gww40v/branch/master?svg=true "Visual test suite"
-[AppveyorLink]: https://ci.appveyor.com/project/inikep/lzbench
- -->
 
 Usage
 -------------------------
